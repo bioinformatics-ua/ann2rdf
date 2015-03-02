@@ -1,0 +1,740 @@
+<?xml version="1.0" ?>
+<!DOCTYPE collection
+  SYSTEM 'BioC.dtd'>
+<collection>
+    <source/>
+    <date/>
+    <key/>
+    <document>
+        <id>
+            PMID3429544
+        </id>
+        <passage>
+            <offset>
+                0
+            </offset>
+            <text>
+                Autophagy is induced through the ROS-TP53-DRAM1 pathway in response to mitochondrial protein synthesis inhibition
+Abstract
+Mitoribosome in mammalian cells is responsible for synthesis of 13 mtDNA-encoded proteins, which are integral parts of four mitochondrial respiratory chain complexes (I, III, IV and V). ERAL1 is a nuclear-encoded GTPase important for the formation of the 28S small mitoribosomal subunit. Here, we demonstrate that knockdown of ERAL1 by RNA interference inhibits mitochondrial protein synthesis and promotes reactive oxygen species (ROS) generation, leading to autophagic vacuolization in HeLa cells. Cells that lack ERAL1 expression showed a significant conversion of LC3-I to LC3-II and an enhanced accumulation of autophagic vacuoles carrying the LC3 marker, all of which were blocked by the autophagy inhibitor 3-MA as well as by the ROS scavenger NAC. Inhibition of mitochondrial protein synthesis either by ERAL1 siRNA or chloramphenicol (CAP), a specific inhibitor of mitoribosomes, induced autophagy in HTC-116 TP53+/+ cells, but not in HTC-116 TP53?/? cells, indicating that tumor protein 53 (TP53) is essential for the autophagy induction. The ROS elevation resulting from mitochondrial protein synthesis inhibition induced TP53 expression at transcriptional levels by enhancing TP53 promoter activity, and increased TP53 protein stability by suppressing TP53 ubiquitination through MAPK14/p38 MAPK-mediated TP53 phosphorylation. Upregulation of TP53 and its downstream target gene DRAM1, but not CDKN1A/p21, was required for the autophagy induction in ERAL1 siRNA or CAP-treated cells. Altogether, these data indicate that autophagy is induced through the ROS-TP53-DRAM1 pathway in response to mitochondrial protein synthesis inhibition.
+            </text>
+            <annotation id="T1">
+                <infon key="type">
+                    Cell
+                </infon>
+                <location length="7" offset="48"/>
+                <text>
+                    pathway
+                </text>
+            </annotation>
+            <annotation id="T2">
+                <infon key="type">
+                    Cell
+                </infon>
+                <location length="13" offset="71"/>
+                <text>
+                    mitochondrial
+                </text>
+            </annotation>
+            <annotation id="T3">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="7" offset="13"/>
+                <text>
+                    induced
+                </text>
+            </annotation>
+            <annotation id="T4">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="8" offset="33"/>
+                <text>
+                    ROS-TP53
+                </text>
+            </annotation>
+            <annotation id="T5">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="5" offset="42"/>
+                <text>
+                    DRAM1
+                </text>
+            </annotation>
+            <annotation id="T6">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="8" offset="59"/>
+                <text>
+                    response
+                </text>
+            </annotation>
+            <annotation id="T7">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="10" offset="103"/>
+                <text>
+                    inhibition
+                </text>
+            </annotation>
+            <annotation id="T8">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="5" offset="311"/>
+                <text>
+                    ERAL1
+                </text>
+            </annotation>
+            <annotation id="T9">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="22" offset="322"/>
+                <text>
+                    nuclear-encoded GTPase
+                </text>
+            </annotation>
+            <annotation id="T10">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="9" offset="363"/>
+                <text>
+                    formation
+                </text>
+            </annotation>
+            <annotation id="T11">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="31" offset="380"/>
+                <text>
+                    28S small mitoribosomal subunit
+                </text>
+            </annotation>
+            <annotation id="T12">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="5" offset="452"/>
+                <text>
+                    ERAL1
+                </text>
+            </annotation>
+            <annotation id="T13">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="8" offset="478"/>
+                <text>
+                    inhibits
+                </text>
+            </annotation>
+            <annotation id="T14">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="8" offset="523"/>
+                <text>
+                    promotes
+                </text>
+            </annotation>
+            <annotation id="T15">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="10" offset="562"/>
+                <text>
+                    generation
+                </text>
+            </annotation>
+            <annotation id="T16">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="7" offset="574"/>
+                <text>
+                    leading
+                </text>
+            </annotation>
+            <annotation id="T17">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="5" offset="641"/>
+                <text>
+                    ERAL1
+                </text>
+            </annotation>
+            <annotation id="T18">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="5" offset="693"/>
+                <text>
+                    LC3-I
+                </text>
+            </annotation>
+            <annotation id="T19">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="6" offset="702"/>
+                <text>
+                    LC3-II
+                </text>
+            </annotation>
+            <annotation id="T20">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="8" offset="716"/>
+                <text>
+                    enhanced
+                </text>
+            </annotation>
+            <annotation id="T21">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="12" offset="725"/>
+                <text>
+                    accumulation
+                </text>
+            </annotation>
+            <annotation id="T22">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="7" offset="804"/>
+                <text>
+                    blocked
+                </text>
+            </annotation>
+            <annotation id="T23">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="24" offset="819"/>
+                <text>
+                    autophagy inhibitor 3-MA
+                </text>
+            </annotation>
+            <annotation id="T24">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="17" offset="862"/>
+                <text>
+                    ROS scavenger NAC
+                </text>
+            </annotation>
+            <annotation id="T25">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="10" offset="881"/>
+                <text>
+                    Inhibition
+                </text>
+            </annotation>
+            <annotation id="T26">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="11" offset="937"/>
+                <text>
+                    ERAL1 siRNA
+                </text>
+            </annotation>
+            <annotation id="T27">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="21" offset="952"/>
+                <text>
+                    chloramphenicol (CAP)
+                </text>
+            </annotation>
+            <annotation id="T28">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="9" offset="986"/>
+                <text>
+                    inhibitor
+                </text>
+            </annotation>
+            <annotation id="T29">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="7" offset="1014"/>
+                <text>
+                    induced
+                </text>
+            </annotation>
+            <annotation id="T30">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="12" offset="1069"/>
+                <text>
+                    HTC-116 TP53
+                </text>
+            </annotation>
+            <annotation id="T31">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="9" offset="1163"/>
+                <text>
+                    induction
+                </text>
+            </annotation>
+            <annotation id="T32">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="9" offset="1192"/>
+                <text>
+                    resulting
+                </text>
+            </annotation>
+            <annotation id="T33">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="10" offset="1239"/>
+                <text>
+                    inhibition
+                </text>
+            </annotation>
+            <annotation id="T34">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="7" offset="1250"/>
+                <text>
+                    induced
+                </text>
+            </annotation>
+            <annotation id="T35">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="4" offset="1258"/>
+                <text>
+                    TP53
+                </text>
+            </annotation>
+            <annotation id="T36">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="9" offset="1303"/>
+                <text>
+                    enhancing
+                </text>
+            </annotation>
+            <annotation id="T37">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="13" offset="1313"/>
+                <text>
+                    TP53 promoter
+                </text>
+            </annotation>
+            <annotation id="T38">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="9" offset="1341"/>
+                <text>
+                    increased
+                </text>
+            </annotation>
+            <annotation id="T39">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="12" offset="1351"/>
+                <text>
+                    TP53 protein
+                </text>
+            </annotation>
+            <annotation id="T40">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="11" offset="1377"/>
+                <text>
+                    suppressing
+                </text>
+            </annotation>
+            <annotation id="T41">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="4" offset="1389"/>
+                <text>
+                    TP53
+                </text>
+            </annotation>
+            <annotation id="T42">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="6" offset="1417"/>
+                <text>
+                    MAPK14
+                </text>
+            </annotation>
+            <annotation id="T43">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="3" offset="1424"/>
+                <text>
+                    p38
+                </text>
+            </annotation>
+            <annotation id="T44">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="8" offset="1433"/>
+                <text>
+                    mediated
+                </text>
+            </annotation>
+            <annotation id="T45">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="4" offset="1442"/>
+                <text>
+                    TP53
+                </text>
+            </annotation>
+            <annotation id="T46">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="15" offset="1447"/>
+                <text>
+                    phosphorylation
+                </text>
+            </annotation>
+            <annotation id="T47">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="12" offset="1464"/>
+                <text>
+                    Upregulation
+                </text>
+            </annotation>
+            <annotation id="T48">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="4" offset="1480"/>
+                <text>
+                    TP53
+                </text>
+            </annotation>
+            <annotation id="T49">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="6" offset="1504"/>
+                <text>
+                    target
+                </text>
+            </annotation>
+            <annotation id="T50">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="5" offset="1516"/>
+                <text>
+                    DRAM1
+                </text>
+            </annotation>
+            <annotation id="T51">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="6" offset="1531"/>
+                <text>
+                    CDKN1A
+                </text>
+            </annotation>
+            <annotation id="T52">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="3" offset="1538"/>
+                <text>
+                    p21
+                </text>
+            </annotation>
+            <annotation id="T53">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="8" offset="1547"/>
+                <text>
+                    required
+                </text>
+            </annotation>
+            <annotation id="T54">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="9" offset="1574"/>
+                <text>
+                    induction
+                </text>
+            </annotation>
+            <annotation id="T55">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="11" offset="1587"/>
+                <text>
+                    ERAL1 siRNA
+                </text>
+            </annotation>
+            <annotation id="T56">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="3" offset="1602"/>
+                <text>
+                    CAP
+                </text>
+            </annotation>
+            <annotation id="T57">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="7" offset="1671"/>
+                <text>
+                    induced
+                </text>
+            </annotation>
+            <annotation id="T58">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="8" offset="1691"/>
+                <text>
+                    ROS-TP53
+                </text>
+            </annotation>
+            <annotation id="T59">
+                <infon key="type">
+                    Gene_or_Protein
+                </infon>
+                <location length="5" offset="1700"/>
+                <text>
+                    DRAM1
+                </text>
+            </annotation>
+            <annotation id="T60">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="8" offset="1717"/>
+                <text>
+                    response
+                </text>
+            </annotation>
+            <annotation id="T61">
+                <infon key="type">
+                    Active_word
+                </infon>
+                <location length="10" offset="1761"/>
+                <text>
+                    inhibition
+                </text>
+            </annotation>
+            <relation id="R1">
+                <infon key="simp">
+                    Interacts
+                </infon>
+                <node refid="T1" role=""/>
+                <node refid="T2" role=""/>
+            </relation>
+            <relation id="R2">
+                <infon key="simp">
+                    Interacts
+                </infon>
+                <node refid="T4" role=""/>
+                <node refid="T5" role=""/>
+            </relation>
+            <relation id="R3">
+                <infon key="simp">
+                    Interacts
+                </infon>
+                <node refid="T26" role=""/>
+                <node refid="T27" role=""/>
+            </relation>
+            <relation id="R4">
+                <infon key="simp">
+                    Interacts
+                </infon>
+                <node refid="T35" role=""/>
+                <node refid="T39" role=""/>
+            </relation>
+            <relation id="R5">
+                <infon key="simp">
+                    Interacts
+                </infon>
+                <node refid="T35" role=""/>
+                <node refid="T37" role=""/>
+            </relation>
+            <relation id="R6">
+                <infon key="simp">
+                    Interacts
+                </infon>
+                <node refid="T39" role=""/>
+                <node refid="T41" role=""/>
+            </relation>
+            <relation id="R7">
+                <infon key="simp">
+                    Interacts
+                </infon>
+                <node refid="T39" role=""/>
+                <node refid="T42" role=""/>
+            </relation>
+            <relation id="R8">
+                <infon key="simp">
+                    Interacts
+                </infon>
+                <node refid="T39" role=""/>
+                <node refid="T43" role=""/>
+            </relation>
+            <relation id="R9">
+                <infon key="simp">
+                    Interacts
+                </infon>
+                <node refid="T39" role=""/>
+                <node refid="T45" role=""/>
+            </relation>
+            <relation id="R10">
+                <infon key="simp">
+                    Interacts
+                </infon>
+                <node refid="T41" role=""/>
+                <node refid="T42" role=""/>
+            </relation>
+            <relation id="R11">
+                <infon key="simp">
+                    Interacts
+                </infon>
+                <node refid="T41" role=""/>
+                <node refid="T43" role=""/>
+            </relation>
+            <relation id="R12">
+                <infon key="simp">
+                    Interacts
+                </infon>
+                <node refid="T41" role=""/>
+                <node refid="T45" role=""/>
+            </relation>
+            <relation id="R13">
+                <infon key="simp">
+                    Interacts
+                </infon>
+                <node refid="T42" role=""/>
+                <node refid="T43" role=""/>
+            </relation>
+            <relation id="R14">
+                <infon key="simp">
+                    Interacts
+                </infon>
+                <node refid="T42" role=""/>
+                <node refid="T45" role=""/>
+            </relation>
+            <relation id="R15">
+                <infon key="simp">
+                    Interacts
+                </infon>
+                <node refid="T43" role=""/>
+                <node refid="T45" role=""/>
+            </relation>
+            <relation id="R16">
+                <infon key="simp">
+                    Interacts
+                </infon>
+                <node refid="T48" role=""/>
+                <node refid="T50" role=""/>
+            </relation>
+            <relation id="R17">
+                <infon key="simp">
+                    Interacts
+                </infon>
+                <node refid="T48" role=""/>
+                <node refid="T51" role=""/>
+            </relation>
+            <relation id="R18">
+                <infon key="simp">
+                    Interacts
+                </infon>
+                <node refid="T48" role=""/>
+                <node refid="T52" role=""/>
+            </relation>
+            <relation id="R19">
+                <infon key="simp">
+                    Interacts
+                </infon>
+                <node refid="T50" role=""/>
+                <node refid="T51" role=""/>
+            </relation>
+            <relation id="R20">
+                <infon key="simp">
+                    Interacts
+                </infon>
+                <node refid="T50" role=""/>
+                <node refid="T52" role=""/>
+            </relation>
+            <relation id="R21">
+                <infon key="simp">
+                    Interacts
+                </infon>
+                <node refid="T51" role=""/>
+                <node refid="T52" role=""/>
+            </relation>
+            <relation id="R22">
+                <infon key="simp">
+                    Interacts
+                </infon>
+                <node refid="T55" role=""/>
+                <node refid="T56" role=""/>
+            </relation>
+            <relation id="R23">
+                <infon key="simp">
+                    Interacts
+                </infon>
+                <node refid="T58" role=""/>
+                <node refid="T59" role=""/>
+            </relation>
+            <relation id="R24">
+                <infon key="simp">
+                    No_interaction
+                </infon>
+                <node refid="T9" role=""/>
+                <node refid="T11" role=""/>
+            </relation>
+        </passage>
+    </document>
+</collection>
