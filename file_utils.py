@@ -18,3 +18,6 @@ def parse_bioc_file(filename, dtd_file):
     bioc_reader = BioCReader(filename, dtd_valid_file=dtd_file)
     bioc_reader.read()
     return bioc_reader.collection
+
+def parse_a1_file(filename):
+    return true

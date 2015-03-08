@@ -3,7 +3,7 @@ __author__ = 'Pedro Sernadela sernadela@ua.pt'
 # from bioc import BioCReader
 # from bioc import BioCWriter
 from boot import *
-from abstraction import Triplify
+from abstraction import AnnCreator
 import logging
 
 
@@ -15,7 +15,7 @@ def main():
     b = Boot("config.json")
     logging.debug(b.config_file)
 
-    t = Triplify()
+    t = AnnCreator()
     annotations = t.parse_bioc(b.bioc_file)
     for annotation in annotations:
         logging.debug(annotation)

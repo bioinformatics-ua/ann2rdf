@@ -1,5 +1,5 @@
 #
-# Package for convert data into triples
+# Package for convert files data into Annotations
 #
 
 __version__ = '1.0'
@@ -7,8 +7,8 @@ __version__ = '1.0'
 __author__ = 'Pedro Sernadela sernadela@ua.pt'
 
 
-__all__ = ['Triplify', 'Annotation', 'Triple']
+__all__ = ['AnnCreator', 'Annotation', 'Context']
 
-from Triplify import Triplify
+from AnnCreator import AnnCreator
 from Annotation import Annotation
-from Context import Triple
+from Context import Context

@@ -47,14 +47,14 @@ class Triplify:
 
                 # get relations
                 for relation in passage.relations:
-                    rel = Relation(relation.id)
-                    r = ""
+                    ann = Annotation(relation.id)
+                    
                     for key, infon in relation.infons.iteritems():
 
-                        r = r + relation.id + " " + key + " " + infon.strip()
+                        r =  relation.id + " " + key + " " + infon.strip()
                     for node in relation.nodes:
                         r = r + " " + node.refid
-                    relations.append(rel)
+                    # relations.append(rel)
                     # logging.debug(r)
 
         return annotations
