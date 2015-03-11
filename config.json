@@ -2,6 +2,7 @@
   "dtd":"bioc/dtd/BioC.dtd",
   "input":"test_files/egas_sample.xml",
   "namespace":"http://bioinformatics.ua.pt/slutt/",
+  "prefix":"slutt",
   "mappings":{
     "in":"Gene_or_Protein",
     "out":""

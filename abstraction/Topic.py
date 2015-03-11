@@ -7,4 +7,4 @@ class Topic:
         self.description = None
 
     def __str__(self):
-        return self.id + ' ' + self.description
+        return '<Topic>('+self.id + ',' + self.description+')'

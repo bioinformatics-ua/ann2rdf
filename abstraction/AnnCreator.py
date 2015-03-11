@@ -4,6 +4,8 @@ __author__ = 'Pedro Sernadela sernadela@ua.pt'
 from Topic import *
 from Annotation import *
 from Context import *
+from Relation import *
+from Source import *
 import logging
 
 
@@ -20,9 +22,15 @@ class AnnCreator:
         # Go through each document
         for document in bioc_file.documents:
 
+            source = Source(document.id.strip())
+            source.accessedOn = bioc_file.date
+            source.retrievedFrom = bioc_file.source
+
             # Go through each passage of the document
             for passage in document:
                 # logging.debug(passage.text)
+
+                source.text = passage.text
 
                 # get annotations
                 for annotation in passage.annotations:
@@ -42,24 +50,24 @@ class AnnCreator:
                         # logging.debug(location.offset + location.length)
 
                     ann.context = context
+                    ann.source = source
                     annotations.append(ann)
 
                 # get relations
                 for relation in passage.relations:
                     ann = Annotation(relation.id)
-                    
+                    r = ''
                     for key, infon in relation.infons.iteritems():
-
-                        r =  relation.id + " " + key + " " + infon.strip()
+                        topic = Topic(infon.strip())
+                        topic.description = key
+                        ann.add_topic(topic)
+                        r = relation.id + " " + key + " " + infon.strip()
                     for node in relation.nodes:
                         r = r + " " + node.refid
-                    # relations.append(rel)
+                        rel = Relation(node.role, node.refid)
+                        ann.add_relation(rel)
+                    ann.source = source
+                    annotations.append(ann)
                     # logging.debug(r)
 
         return annotations
-
-    #def add(self, triple):
-    #    self.triples.append(triple)
-
-    #def remove(self, triple):
-    #    self.triples.remove(triple)

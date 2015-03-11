@@ -9,7 +9,7 @@ class Context:
         self.exact = ''
 
     def __str__(self):
-        return self.id + ' ' + self.exact
+        return '<Context>('+self.id + ',' + self.exact+')'
 
     def add_offset(self, offset):
         self.offset.append(offset)
