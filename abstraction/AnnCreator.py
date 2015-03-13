@@ -35,7 +35,7 @@ class AnnCreator:
                 # get annotations
                 for annotation in passage.annotations:
                     ann = Annotation(annotation.id)
-                    context = Context(annotation.id + '_' + annotation.text.strip())
+                    context = Context('context_' + annotation.id)
                     context.exact = annotation.text.strip()
 
                     for key, infon in annotation.infons.iteritems():
@@ -56,14 +56,14 @@ class AnnCreator:
                 # get relations
                 for relation in passage.relations:
                     ann = Annotation(relation.id)
-                    r = ''
+                    # r = ''
                     for key, infon in relation.infons.iteritems():
                         topic = Topic(infon.strip())
                         topic.description = key
                         ann.add_topic(topic)
-                        r = relation.id + " " + key + " " + infon.strip()
+                        # r = relation.id + " " + key + " " + infon.strip()
                     for node in relation.nodes:
-                        r = r + " " + node.refid
+                        # r = r + " " + node.refid
                         rel = Relation(node.role, node.refid)
                         ann.add_relation(rel)
                     ann.source = source

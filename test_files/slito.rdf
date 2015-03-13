@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ao="http://purl.org/ao/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/R1">
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/PMID3429544"/>
+    <rdf:type rdf:resource="http://purl.org/ao/annotation"/>
+    <ao:hasTopic rdf:resource="http://bioinformatics.ua.pt/slito/Interacts"/>
+    <dc:related rdf:resource="http://bioinformatics.ua.pt/slito/T2"/>
+    <dc:related rdf:resource="http://bioinformatics.ua.pt/slito/T1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T1">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>pathway</ao:exact>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ao:offset>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T1">
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/PMID3429544"/>
+    <rdf:type rdf:resource="http://purl.org/ao/annotation"/>
+    <ao:hasTopic rdf:resource="http://bioinformatics.ua.pt/slito/Cell"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T2">
+    <ao:hasTopic rdf:resource="http://bioinformatics.ua.pt/slito/Cell"/>
+    <rdf:type rdf:resource="http://purl.org/ao/annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/PMID3429544"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T2">
+    <ao:exact>mitochondrial</ao:exact>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ao:range>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71</ao:offset>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/PMID3429544">
+    <rdf:type rdf:resource="http://purl.org/pav/SourceDocument"/>
+    <dc:description>
+                Autophagy is induced through the ROS-TP53-DRAM1 pathway in response to mitochondrial protein synthesis inhibition
+            </dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/Interacts">
+    <dc:description>simp</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/Cell">
+    <dc:description>type</dc:description>
+  </rdf:Description>
+</rdf:RDF>

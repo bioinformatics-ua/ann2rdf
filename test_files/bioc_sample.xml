@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE collection
+  SYSTEM 'BioC.dtd'>
+<collection>
+    <source/>
+    <date/>
+    <key/>
+    <document>
+        <id>
+            PMID3429544
+        </id>
+        <passage>
+            <offset>
+                0
+            </offset>
+            <text>
+                Autophagy is induced through the ROS-TP53-DRAM1 pathway in response to mitochondrial protein synthesis inhibition
+            </text>
+            <annotation id="T1">
+                <infon key="type">
+                    Cell
+                </infon>
+                <location length="7" offset="48"/>
+                <text>
+                    pathway
+                </text>
+            </annotation>
+            <annotation id="T2">
+                <infon key="type">
+                    Cell
+                </infon>
+                <location length="13" offset="71"/>
+                <text>
+                    mitochondrial
+                </text>
+            </annotation>
+            <relation id="R1">
+                <infon key="simp">
+                    Interacts
+                </infon>
+                <node refid="T1" role=""/>
+                <node refid="T2" role=""/>
+            </relation>
+        </passage>
+    </document>
+</collection>
