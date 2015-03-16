@@ -2,3 +2,4 @@ lxml
 logging
 rdflib
 requests
+jsonpath-rw

@@ -3,9 +3,10 @@ __author__ = 'Pedro Sernadela sernadela@ua.pt'
 
 import logging
 from rdflib import URIRef, Literal, BNode
-from rdflib.namespace import RDF, FOAF, XSD, DC, Namespace
+from rdflib.namespace import RDF, FOAF, XSD, DC, RDFS, Namespace
 from Store import *
 from file_utils import *
+from engine import Normalization
 
 AO = Namespace('http://purl.org/ao/')
 PAV = Namespace('http://purl.org/pav/')
@@ -22,6 +23,19 @@ class Triplify:
         self.store.bind("pav", str(PAV))
         self.store.bind("dc", str(DC))
 
+    def normalize(self, normalization):
+
+        # For each ao:Annotation in the store print out its ao:hasTopic property.
+
+        topics = self.store.graph.objects(None, AO.hasTopic)
+        for topic in topics:
+            for value in self.store.graph.objects(topic, RDFS.label):
+                norm_values = normalization.do_request(value)
+                for norm_value in norm_values:
+                    self.store.add((topic, DC.related, Literal(norm_value)))
+
+
+
     def process(self, annotations):
 
         # self.store.load('http://purl.org/ao/')
@@ -32,7 +46,7 @@ class Triplify:
             # annotation
             guid = BNode()
             ann_id = URIRef(self.namespace + annotation.id)
-            self.store.add((ann_id, RDF.type, AO.annotation))
+            self.store.add((ann_id, RDF.type, AO.Annotation))
 
             # context
             if annotation.context is not None:
@@ -49,6 +63,7 @@ class Triplify:
             for topic in annotation.topics:
                 ann_topic = URIRef(self.namespace + topic.id)
                 self.store.add((ann_topic, DC.description, Literal(topic.description)))
+                self.store.add((ann_topic, RDFS.label, Literal(topic.id)))
                 self.store.add((ann_id, AO.hasTopic, ann_topic))
 
             # relations
@@ -78,9 +93,9 @@ class Triplify:
         # donna = BNode()
         # pedro = self.namespace.pedro
 
+    def close(self):
         s = self.store.serialize('turtle')
         logging.debug(s)
         s = self.store.serialize('xml')
         write_file('test_files/slito.rdf', s)
         self.store.close()
-

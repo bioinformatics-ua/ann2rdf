@@ -4,9 +4,9 @@
   "namespace":"http://bioinformatics.ua.pt/slito/",
   "prefix":"slito",
   "normalization":{
-    "service_becas":"http://bioinformatics.ua.pt/becas/api/text/annotate?email=sernadela@ua.pt&tool=test",
-    "service":"http://data.bioontology.org/annotator?apikey=b3fe8ec4-42f9-4b13-9007-417ddee3caf9",
-    "query":""
+    "service":"http://bioinformatics.ua.pt/becas/api/text/annotate?email=sernadela@ua.pt&tool=test",
+    "service2":"http://data.bioontology.org/annotator?apikey=b3fe8ec4-42f9-4b13-9007-417ddee3caf9",
+    "query":"ids"
   },
   "mappings":{
     "in":"Gene_or_Protein",

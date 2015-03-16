@@ -22,9 +22,9 @@ def main():
 
     t = Triplify(b.prefix, b.namespace)
     t.process(annotations)
-
     n = Normalization(b.service, b.query)
-    n.do_request()
+    t.normalize(n)
+    t.close()
 
 if __name__ == '__main__':
     main()
