@@ -1,6 +1,5 @@
 __author__ = 'Pedro Sernadela sernadela@ua.pt'
 
-from bioc import BioCReader
 import json
 
 
@@ -18,13 +17,3 @@ def write_file(filename, content):
     f = open(filename, 'w')
     f.write(content)
     f.close()
-
-
-def parse_bioc_file(filename, dtd_file):
-    bioc_reader = BioCReader(filename, dtd_valid_file=dtd_file)
-    bioc_reader.read()
-    return bioc_reader.collection
-
-
-def parse_a1_file(filename):
-    return 0

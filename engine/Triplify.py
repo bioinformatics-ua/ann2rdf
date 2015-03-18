@@ -6,7 +6,6 @@ from rdflib import URIRef, Literal, BNode
 from rdflib.namespace import RDF, FOAF, XSD, DC, RDFS, Namespace
 from Store import *
 from file_utils import *
-from engine import Normalization
 
 AO = Namespace('http://purl.org/ao/')
 PAV = Namespace('http://purl.org/pav/')
@@ -25,16 +24,45 @@ class Triplify:
 
     def normalize(self, normalization):
 
-        # For each ao:Annotation in the store print out its ao:hasTopic property.
-
+        # For each ao:Annotation in the store get its ao:hasTopic property.
+        '''
         topics = self.store.graph.objects(None, AO.hasTopic)
         for topic in topics:
             for value in self.store.graph.objects(topic, RDFS.label):
                 norm_values = normalization.do_request(value)
                 for norm_value in norm_values:
-                    self.store.add((topic, DC.related, Literal(norm_value)))
 
+                    # try to convert 'GO:0005623' -> 'http://purl.org/obo/owl/GO#0005623'
+                    if ':' in norm_value:
+                        split = norm_value.split(':')
+                        p = split[0].lower()
+                        i = split[1].lower()
+                        prefix = normalization.query_prefix_cc(p)
+                        print prefix
+                        if p in prefix:
+                            self.store.bind(p, prefix[p])
+                            self.store.add((topic, DC.related, URIRef(prefix[p]+i)))
+                        else:
+                            self.store.add((topic, DC.related, Literal(norm_value)))
+                    else:
 
+                    if str(norm_value).startswith('http'):
+                        self.store.add((topic, DC.related, URIRef(norm_value)))
+                    else:
+                        self.store.add((topic, DC.related, Literal(norm_value)))
+        '''
+
+        annotations = self.store.graph.subjects(RDF.type, AO.Annotation)
+        for annotation in annotations:
+            contexts = self.store.graph.objects(annotation, AO.context)
+            for context in contexts:
+                for exact in self.store.graph.objects(context, AO.exact):
+                    norm_values = normalization.do_request(exact)
+                    for norm_value in norm_values:
+                        if str(norm_value).startswith('http'):
+                            self.store.add((annotation, AO.hasTopic, URIRef(norm_value)))
+                        else:
+                            self.store.add((annotation, AO.hasTopic, Literal(norm_value)))
 
     def process(self, annotations):
 
@@ -59,16 +87,16 @@ class Triplify:
                     self.store.add((ann_context, AO.range, Literal(r, datatype=XSD.integer)))
                 self.store.add((ann_id, AO.context, ann_context))
 
-            # topic
-            for topic in annotation.topics:
-                ann_topic = URIRef(self.namespace + topic.id)
-                self.store.add((ann_topic, DC.description, Literal(topic.description)))
-                self.store.add((ann_topic, RDFS.label, Literal(topic.id)))
-                self.store.add((ann_id, AO.hasTopic, ann_topic))
+            # tag
+            for tag in annotation.tags:
+                #ann_tag = URIRef(self.namespace + tag)
+                # TODO: search for mappings
+                self.store.add((ann_id, AO.body, Literal(tag)))
 
             # relations
             for relation in annotation.relations:
                 ann_target = URIRef(self.namespace + relation.annotation)
+                # if relation is not specified generalize one
                 if relation.relation:
                     ann_relation = URIRef(self.namespace + relation.relation)
                 else:

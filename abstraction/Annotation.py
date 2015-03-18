@@ -1,25 +1,27 @@
 __author__ = 'Pedro Sernadela sernadela@ua.pt'
 
+'''Class that identifies a Annotation.'''
+
 
 class Annotation:
     def __init__(self, id):
         self.id = id
-        self.topics = []
+        self.tags = []
         self.relations = []
         self.context = None
         self.source = None
 
     def __str__(self):
-        all_topics = ''
-        for t in self.topics:
-            all_topics += str(t)
+        all_tags = ''
+        for t in self.tags:
+            all_tags += str(t)
         all_relations = ''
         for t in self.relations:
             all_relations += str(t)
-        return '<Annotation>(' + self.id + ',' + str(self.context) + ',' + str(self.source) + ',[' + all_topics + '],[' + all_relations + '])'
+        return '<Annotation>(' + self.id + ',' + str(self.context) + ',' + str(self.source) + ',<Tag>[' + all_tags + '],[' + all_relations + '])'
 
-    def add_topic(self, topic):
-        self.topics.append(topic)
+    def add_tag(self, tag):
+        self.tags.append(tag)
 
     def add_relation(self, relation):
         self.relations.append(relation)

@@ -2,55 +2,66 @@
 <rdf:RDF
    xmlns:ao="http://purl.org/ao/"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:pav="http://purl.org/pav/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:slito="http://bioinformatics.ua.pt/slito/"
 >
-  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/R1">
-    <ao:hasTopic rdf:resource="http://bioinformatics.ua.pt/slito/Interacts"/>
-    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/PMID3429544"/>
-    <dc:related rdf:resource="http://bioinformatics.ua.pt/slito/T2"/>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/R2">
+    <slito:Cause rdf:resource="http://bioinformatics.ua.pt/slito/G2"/>
+
+    <slito:Trigger rdf:resource="http://bioinformatics.ua.pt/slito/T2"/>
     <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
-    <dc:related rdf:resource="http://bioinformatics.ua.pt/slito/T1"/>
+    <ao:body>Positive_regulation</ao:body>
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/R1"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T1">
-    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ao:offset>
-    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
-    <ao:exact>pathway</ao:exact>
-    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ao:range>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T2">
-    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T2"/>
-    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/PMID3429544"/>
-    <ao:hasTopic rdf:resource="http://bioinformatics.ua.pt/slito/Cell"/>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/G0">
+
+    <ao:body>Gene_name</ao:body>
+
     <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/PMID3429544">
-    <dc:description>
-                Autophagy is induced through the ROS-TP53-DRAM1 pathway in response to mitochondrial protein synthesis inhibition
-            </dc:description>
-    <rdf:type rdf:resource="http://purl.org/pav/SourceDocument"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/Cell">
-    <rdfs:label>Cell</rdfs:label>
-    <dc:related>UMLS:C0007634</dc:related>
-    <dc:related>GO:0005623</dc:related>
-    <dc:description>type</dc:description>
-    <dc:related>UMLS:C1269647</dc:related>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T2">
-    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ao:range>
-    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71</ao:offset>
-    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
-    <ao:exact>mitochondrial</ao:exact>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/Interacts">
-    <rdfs:label>Interacts</rdfs:label>
-    <dc:description>simp</dc:description>
   </rdf:Description>
   <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T1">
-    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/PMID3429544"/>
-    <ao:hasTopic rdf:resource="http://bioinformatics.ua.pt/slito/Cell"/>
-    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T1"/>
+
     <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+
+    <ao:body>Gene_expression</ao:body>
+
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/G1">
+
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Gene_name</ao:body>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T0">
+    <ao:body>Positive_regulation</ao:body>
+
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/R1">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <slito:Cause rdf:resource="http://bioinformatics.ua.pt/slito/G0"/>
+    <slito:Trigger rdf:resource="http://bioinformatics.ua.pt/slito/T0"/>
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/R0"/>
+    <ao:body>Positive_regulation</ao:body>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/R0">
+    <slito:Trigger rdf:resource="http://bioinformatics.ua.pt/slito/T1"/>
+    <ao:body>Gene_expression</ao:body>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/G1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/G2">
+
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Gene_name</ao:body>
+
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T2">
+    <ao:body>Positive_regulation</ao:body>
   </rdf:Description>
 </rdf:RDF>

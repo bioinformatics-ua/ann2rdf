@@ -1,30 +1,32 @@
 __author__ = 'Pedro Sernadela sernadela@ua.pt'
 
+from bioc import BioCReader
+from abstraction import *
+from factory import FactoryBase
 
-from Topic import *
-from Annotation import *
-from Context import *
-from Relation import *
-from Source import *
-import logging
+BioC_DTD = 'bioc/dtd/BioC.dtd'
 
 
-class AnnCreator:
+class BioCFactory(object):
 
-    def __init__(self):
-        self.id = ''
-        self.annotations = list()
+    def __init__(self, filename):
+        self.filename = filename
 
-    def parse_bioc(self, bioc_file):
+    def parse(self):
+        bioc_reader = BioCReader(self.filename, dtd_valid_file=BioC_DTD)
+        bioc_reader.read()
+        return bioc_reader.collection
+
+    def process(self, file_content):
 
         annotations = list()
 
         # Go through each document
-        for document in bioc_file.documents:
+        for document in file_content.documents:
 
             source = Source(document.id.strip())
-            source.accessedOn = bioc_file.date
-            source.retrievedFrom = bioc_file.source
+            source.accessedOn = file_content.date
+            source.retrievedFrom = file_content.source
 
             # Go through each passage of the document
             for passage in document:
@@ -39,9 +41,9 @@ class AnnCreator:
                     context.exact = annotation.text.strip()
 
                     for key, infon in annotation.infons.iteritems():
-                        topic = Topic(infon.strip())
-                        topic.description = key
-                        ann.add_topic(topic)
+                        tag = infon.strip()
+                        # tag.description = key
+                        ann.add_tag(tag)
                         # logging.debug(annotation.id + " " + annotation.text.strip() + " " + key + " " + infon.strip())
 
                     for location in annotation.locations:
@@ -58,9 +60,9 @@ class AnnCreator:
                     ann = Annotation(relation.id)
                     # r = ''
                     for key, infon in relation.infons.iteritems():
-                        topic = Topic(infon.strip())
-                        topic.description = key
-                        ann.add_topic(topic)
+                        tag = infon.strip()
+                        # tag.description = key
+                        ann.add_tag(tag)
                         # r = relation.id + " " + key + " " + infon.strip()
                     for node in relation.nodes:
                         # r = r + " " + node.refid

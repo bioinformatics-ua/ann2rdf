@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<!DOCTYPE collection
+        SYSTEM 'BioC.dtd'>
+<collection>
+    <source>http://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/BioC_ISMB2014.pdf</source>
+    <date/>
+    <key/>
+    <document>
+        <id>
+            PMID22187158
+        </id>
+        <passage>
+            <offset>
+                0
+            </offset>
+            <text>
+                Tat mostly activated the MIP-1alpha expression in a p65-dependent manner.
+            </text>
+            <annotation id ="G0">
+                <infon key="type">Gene_name</infon>
+                <location offset="0" length="3" />
+                <text>Tat</text>
+            </annotation>
+            <annotation id ="G1">
+                <infon key="type">Gene_name</infon>
+                <location offset="25" length="10" />
+                <text>MIP-1alpha</text>
+            </annotation>
+            <annotation id ="G2">
+                <infon key="type">Gene_name</infon>
+                <location offset="52" length="3" />
+                <text>p65</text>
+            </annotation>
+            <annotation id ="T0">
+                <infon key="trigger">Positive_regulation</infon>
+                <location offset="11" length="9" />
+                <text>activated</text>
+            </annotation>
+            <annotation id ="T1">
+                <infon key="trigger">Gene_expression</infon>
+                <location offset="36" length="10" />
+                <text>expression</text>
+            </annotation>
+            <annotation id ="T2">
+                <infon key="trigger">Positive_regulation </infon>
+                <location offset="55" length="10" />
+                <text>-dependent</text>
+            </annotation>
+            <relation id="R0">
+                <infon key ="event-type">Gene_expression</infon>
+                <node refid="G1" role="Theme"/>
+                <node refid="T1" role="Trigger"/>
+            </relation>
+            <relation id="R1">
+                <infon key ="event-type">Positive_regulation</infon>
+                <node refid="R0" role="Theme"/>
+                <node refid="T0" role="Trigger"/>
+                <node refid="G0" role="Cause"/>
+            </relation>
+            <relation id="R2">
+                <infon key ="event-type">Positive_regulation</infon>
+                <node refid="R1" role="Theme"/>
+                <node refid="T2" role="Trigger"/>
+                <node refid="G2" role="Cause"/>
+            </relation>
+        </passage>
+    </document>
+</collection>
