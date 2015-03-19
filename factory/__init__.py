@@ -9,7 +9,7 @@ __author__ = 'Pedro Sernadela sernadela@ua.pt'
 
 __all__ = ['Factory', 'FactoryBase', 'AnnFactory', 'BioCFactory']
 
+from FactoryBase import FactoryBase
 from AnnFactory import AnnFactory
 from BioCFactory import BioCFactory
 from Factory import Factory
-from FactoryBase import FactoryBase

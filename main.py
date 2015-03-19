@@ -19,9 +19,9 @@ def main():
     for filename in b.files:
         f = fact.new_factory(filename)
         file_content = f.parse()
-        '''annotations = f.process(file_content)
+        annotations = f.process(file_content)
         for annotation in annotations:
-            logging.debug(annotation)'''
+            logging.debug(annotation)
 
 '''
     ac = AnnCreator()

@@ -19,7 +19,7 @@ class Factory:
         else:
             raise ('No Factory found for %s', filename)
 
-        #if not isinstance(fact, FactoryBase):
-        #    raise 'Class is not instance of FactoryBase'
+        if not isinstance(fact, FactoryBase):
+            raise 'Class is not instance of FactoryBase'
 
         return fact

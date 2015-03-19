@@ -13,6 +13,16 @@ def get_config_file(filename):
         return {}
 
 
+def read_file(filename):
+    try:
+        f = open(filename)
+        file_content = f.read()
+        f.close()
+        return file_content
+    except:
+        raise ('The file %s cannot be loaded.', filename)
+
+
 def write_file(filename, content):
     f = open(filename, 'w')
     f.write(content)

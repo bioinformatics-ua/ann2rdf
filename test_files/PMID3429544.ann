@@ -1,0 +1,85 @@
+T1	Cell 48 55	pathway
+T2	Cell 71 84	mitochondrial
+T3	Active_word 13 20	induced
+T4	Gene_or_Protein 33 41	ROS-TP53
+T5	Gene_or_Protein 42 47	DRAM1
+T6	Active_word 59 67	response
+T7	Active_word 103 113	inhibition
+T8	Gene_or_Protein 311 316	ERAL1
+T9	Gene_or_Protein 322 344	nuclear-encoded GTPase
+T10	Active_word 363 372	formation
+T11	Gene_or_Protein 380 411	28S small mitoribosomal subunit
+T12	Gene_or_Protein 452 457	ERAL1
+T13	Active_word 478 486	inhibits
+T14	Active_word 523 531	promotes
+T15	Active_word 562 572	generation
+T16	Active_word 574 581	leading
+T17	Gene_or_Protein 641 646	ERAL1
+T18	Gene_or_Protein 693 698	LC3-I
+T19	Gene_or_Protein 702 708	LC3-II
+T20	Active_word 716 724	enhanced
+T21	Active_word 725 737	accumulation
+T22	Active_word 804 811	blocked
+T23	Gene_or_Protein 819 843	autophagy inhibitor 3-MA
+T24	Gene_or_Protein 862 879	ROS scavenger NAC
+T25	Active_word 881 891	Inhibition
+T26	Gene_or_Protein 937 948	ERAL1 siRNA
+T27	Gene_or_Protein 952 973	chloramphenicol (CAP)
+T28	Active_word 986 995	inhibitor
+T29	Active_word 1014 1021	induced
+T30	Gene_or_Protein 1069 1081	HTC-116 TP53
+T31	Active_word 1163 1172	induction
+T32	Active_word 1192 1201	resulting
+T33	Active_word 1239 1249	inhibition
+T34	Active_word 1250 1257	induced
+T35	Gene_or_Protein 1258 1262	TP53
+T36	Active_word 1303 1312	enhancing
+T37	Gene_or_Protein 1313 1326	TP53 promoter
+T38	Active_word 1341 1350	increased
+T39	Gene_or_Protein 1351 1363	TP53 protein
+T40	Active_word 1377 1388	suppressing
+T41	Gene_or_Protein 1389 1393	TP53
+T42	Gene_or_Protein 1417 1423	MAPK14
+T43	Gene_or_Protein 1424 1427	p38
+T44	Active_word 1433 1441	mediated
+T45	Gene_or_Protein 1442 1446	TP53
+T46	Active_word 1447 1462	phosphorylation
+T47	Active_word 1464 1476	Upregulation
+T48	Gene_or_Protein 1480 1484	TP53
+T49	Active_word 1504 1510	target
+T50	Gene_or_Protein 1516 1521	DRAM1
+T51	Gene_or_Protein 1531 1537	CDKN1A
+T52	Gene_or_Protein 1538 1541	p21
+T53	Active_word 1547 1555	required
+T54	Active_word 1574 1583	induction
+T55	Gene_or_Protein 1587 1598	ERAL1 siRNA
+T56	Gene_or_Protein 1602 1605	CAP
+T57	Active_word 1671 1678	induced
+T58	Gene_or_Protein 1691 1699	ROS-TP53
+T59	Gene_or_Protein 1700 1705	DRAM1
+T60	Active_word 1717 1725	response
+T61	Active_word 1761 1771	inhibition
+R1	Interacts Arg1:T1 Arg2:T2
+R2	Interacts Arg1:T4 Arg2:T5
+R3	Interacts Arg1:T26 Arg2:T27
+R4	Interacts Arg1:T35 Arg2:T39
+R5	Interacts Arg1:T35 Arg2:T37
+R6	Interacts Arg1:T39 Arg2:T41
+R7	Interacts Arg1:T39 Arg2:T42
+R8	Interacts Arg1:T39 Arg2:T43
+R9	Interacts Arg1:T39 Arg2:T45
+R10	Interacts Arg1:T41 Arg2:T42
+R11	Interacts Arg1:T41 Arg2:T43
+R12	Interacts Arg1:T41 Arg2:T45
+R13	Interacts Arg1:T42 Arg2:T43
+R14	Interacts Arg1:T42 Arg2:T45
+R15	Interacts Arg1:T43 Arg2:T45
+R16	Interacts Arg1:T48 Arg2:T50
+R17	Interacts Arg1:T48 Arg2:T51
+R18	Interacts Arg1:T48 Arg2:T52
+R19	Interacts Arg1:T50 Arg2:T51
+R20	Interacts Arg1:T50 Arg2:T52
+R21	Interacts Arg1:T51 Arg2:T52
+R22	Interacts Arg1:T55 Arg2:T56
+R23	Interacts Arg1:T58 Arg2:T59
+R24	No_interaction Arg1:T9 Arg2:T11

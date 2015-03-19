@@ -7,10 +7,10 @@ from factory import FactoryBase
 BioC_DTD = 'bioc/dtd/BioC.dtd'
 
 
-class BioCFactory(object):
+class BioCFactory(FactoryBase):
 
     def __init__(self, filename):
-        self.filename = filename
+        super(BioCFactory, self).__init__(filename)
 
     def parse(self):
         bioc_reader = BioCReader(self.filename, dtd_valid_file=BioC_DTD)
