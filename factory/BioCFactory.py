@@ -41,10 +41,11 @@ class BioCFactory(FactoryBase):
                     context.exact = annotation.text.strip()
 
                     for key, infon in annotation.infons.iteritems():
-                        tag = infon.strip()
-                        # tag.description = key
-                        ann.add_tag(tag)
-                        # logging.debug(annotation.id + " " + annotation.text.strip() + " " + key + " " + infon.strip())
+                        if key is not 'file':
+                            tag = infon.strip()
+                            # tag.description = key
+                            ann.add_tag(tag)
+                            # logging.debug(annotation.id)
 
                     for location in annotation.locations:
                         context.add_offset(location.offset)

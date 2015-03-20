@@ -1,0 +1,9 @@
+TG0	Gene_name 0 3	Tat
+TG2  Gene_name 52 53   p65
+T0  Positive_regulation 11 9   activated
+T1  Gene_expression 36 10   expression
+T2  Positive_regulation 55 10   -dependent
+T0  Positive_regulation 11 9   activated
+E1  Gene_expression:T1 Theme:G1
+E2  Positive_regulation:T0 Theme:E1 Cause:G0
+E3  Positive_regulation:T2 Theme:E2 Cause:G2

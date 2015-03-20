@@ -1,5 +1,5 @@
 {
-  "input": ["test_files/brat_sample.ann", "test_files/bioc_sample.xml"],
+  "input": [ "test_files/brat_sample.ann"],
   "namespace":"http://bioinformatics.ua.pt/slito/",
   "prefix":"slito",
   "normalization":{
