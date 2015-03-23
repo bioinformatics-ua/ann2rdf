@@ -3,3 +3,4 @@ logging
 rdflib
 requests
 jsonpath-rw
+argparse

@@ -72,13 +72,14 @@ class Triplify:
         for annotation in annotations:
 
             # annotation
-            guid = BNode()
-            ann_id = URIRef(self.namespace + annotation.id)
+            b_id = BNode()
+            b_id = '_' + str(b_id)
+            ann_id = URIRef(self.namespace + annotation.id + b_id)
             self.store.add((ann_id, RDF.type, AO.Annotation))
 
             # context
             if annotation.context is not None:
-                ann_context = URIRef(self.namespace + annotation.context.id)
+                ann_context = URIRef(self.namespace + annotation.context.id + b_id)
                 self.store.add((ann_context, RDF.type, AO.TextSelector))
                 self.store.add((ann_context, AO.exact, Literal(annotation.context.exact)))
                 for o in annotation.context.offset:
@@ -95,7 +96,7 @@ class Triplify:
 
             # relations
             for relation in annotation.relations:
-                ann_target = URIRef(self.namespace + relation.annotation)
+                ann_target = URIRef(self.namespace + relation.annotation + b_id)
                 # if relation is not specified generalize one
                 if relation.relation:
                     ann_relation = URIRef(self.namespace + relation.relation)
@@ -108,6 +109,7 @@ class Triplify:
                 ann_source = URIRef(self.namespace + annotation.source.id)
                 self.store.add((ann_source, RDF.type, PAV.SourceDocument))
                 self.store.add((ann_source, DC.description, Literal(annotation.source.text)))
+                self.store.add((ann_source, DC.identifier, Literal(annotation.source.id)))
                 if annotation.source.retrievedFrom is not None:
                     self.store.add((ann_source, PAV.retrievedFrom, Literal(annotation.source.retrievedFrom)))
                 if annotation.source.accessedOn is not None:
@@ -122,8 +124,12 @@ class Triplify:
         # pedro = self.namespace.pedro
 
     def close(self):
+        self.store.close()
+
+    def show(self):
         s = self.store.serialize('turtle')
         logging.debug(s)
+
+    def save(self, output):
         s = self.store.serialize('xml')
-        write_file('test_files/slito.rdf', s)
-        self.store.close()
+        write_file(output, s)

@@ -1,5 +1,4 @@
 {
-  "input": [ "test_files/brat_sample.ann"],
   "namespace":"http://bioinformatics.ua.pt/slito/",
   "prefix":"slito",
   "normalization":{
@@ -8,8 +7,14 @@
     "query2":"[*].annotatedClass.@id",
     "query":"*.*.refs"
   },
-  "mappings":{
-    "in":"Gene_or_Protein",
-    "out":""
-  }
+  "mappings":[
+    {
+      "in":"Gene_or_Protein",
+      "out":""
+    },
+    {
+      "in":"Gene_or_Protein",
+      "out":""
+    }
+  ]
 }

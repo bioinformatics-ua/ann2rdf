@@ -19,8 +19,6 @@ class BioCFactory(FactoryBase):
 
     def process(self, file_content):
 
-        annotations = list()
-
         # Go through each document
         for document in file_content.documents:
 
@@ -54,7 +52,7 @@ class BioCFactory(FactoryBase):
 
                     ann.context = context
                     ann.source = source
-                    annotations.append(ann)
+                    self.annotations.append(ann)
 
                 # get relations
                 for relation in passage.relations:
@@ -70,7 +68,5 @@ class BioCFactory(FactoryBase):
                         rel = Relation(node.role, node.refid)
                         ann.add_relation(rel)
                     ann.source = source
-                    annotations.append(ann)
+                    self.annotations.append(ann)
                     # logging.debug(r)
-
-        return annotations

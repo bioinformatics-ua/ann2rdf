@@ -18,7 +18,9 @@ class AnnFactory(FactoryBase):
 
     # TODO: catch exceptions
     def process(self, file_content):
-        annotations = list()
+
+        source = Source(self.filename.split('.')[0])
+
         for line in file_content:
 
             # text-bound annotation (entity / event trigger)
@@ -31,7 +33,8 @@ class AnnFactory(FactoryBase):
                 context.add_offset(values['offset'])
                 context.add_range(values['range'])
                 ann.context = context
-                annotations.append(ann)
+                ann.source = source
+                self.annotations.append(ann)
 
             # event
             elif str(line).startswith('E'):
@@ -42,7 +45,8 @@ class AnnFactory(FactoryBase):
                 for v in values['targets']:
                     rel = Relation(v['tag'], v['target'])
                     ann.add_relation(rel)
-                annotations.append(ann)
+                ann.source = source
+                self.annotations.append(ann)
 
             # event modification
             elif str(line).startswith('M'):
@@ -55,23 +59,25 @@ class AnnFactory(FactoryBase):
                 for v in values['relations']:
                     relation = Relation(v['tag'], v['target'])
                     ann.add_relation(relation)
-                annotations.append(ann)
+                ann.source = source
+                self.annotations.append(ann)
 
             # normalization (external reference)
             elif str(line).startswith('N'):
                 values = self.parse_N(line)
                 ann_to_find = Annotation(values['id'])
-                index = annotations.index(ann_to_find)
-                ann = annotations.__getitem__(index)
+                index = self.annotations.index(ann_to_find)
+                ann = self.annotations.__getitem__(index)
                 ann.add_tag(values['reference'])
                 ann.add_tag(values['tag'])
+                ann.source = source
+                self.annotations.append(ann)
 
             # entity equivalence annotations
             elif str(line).startswith('*'):
                 pass
             else:
                 pass
-        return annotations
 
     # parse text annotations (T) from line
     def parse_T(self, line):

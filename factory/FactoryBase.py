@@ -9,6 +9,7 @@ class FactoryBase(object):
 
     def __init__(self, filename):
         self.filename = filename
+        self.annotations = list()
 
     '''
     Parse the file to a readable format
