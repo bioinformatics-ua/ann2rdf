@@ -57,7 +57,7 @@ class Triplify:
             contexts = self.store.graph.objects(annotation, AO.context)
             for context in contexts:
                 for exact in self.store.graph.objects(context, AO.exact):
-                    norm_values = normalization.do_request(exact)
+                    norm_values = normalization.normalize(exact)
                     for norm_value in norm_values:
                         if str(norm_value).startswith('http'):
                             self.store.add((annotation, AO.hasTopic, URIRef(norm_value)))
@@ -68,7 +68,6 @@ class Triplify:
 
         # self.store.load('http://purl.org/ao/')
 
-        # logging.debug(self.store.serialize('turtle'))
         for annotation in annotations:
 
             # annotation
@@ -90,9 +89,10 @@ class Triplify:
 
             # tag
             for tag in annotation.tags:
-                #ann_tag = URIRef(self.namespace + tag)
-                # TODO: search for mappings
-                self.store.add((ann_id, AO.body, Literal(tag)))
+                if str(tag).startswith('http'):
+                    self.store.add((ann_id, AO.body, URIRef(tag)))
+                else:
+                    self.store.add((ann_id, AO.body, Literal(tag)))
 
             # relations
             for relation in annotation.relations:
@@ -116,12 +116,29 @@ class Triplify:
                     self.store.add((ann_source, PAV.sourceAccessedOn, Literal(annotation.source.accessedOn)))
                 self.store.add((ann_id, AO.onSourceDocument, ann_source))
 
-            #id = self.namespace.a
-        # self.store.show()
+    # apply mappings available on the config file
+    def map(self, mappings):
+        tags = mappings['tags']
+        relations = mappings['relations']
 
-        # Create an identifier to use as the subject for Donna.
-        # donna = BNode()
-        # pedro = self.namespace.pedro
+        for tag in tags:
+            tag_to_remove = tag['if']
+            tag_to_add = tag['then']
+            for s in self.store.graph.subjects(AO.body, Literal(tag_to_remove)):
+                self.store.remove((s, AO.body, Literal(tag_to_remove)))
+                self.store.add((s, AO.body, Literal(tag_to_add)))
+
+        for rel in relations:
+            rel_to_remove = rel['if']
+            rel_to_add = rel['then']
+            rel_to_remove = URIRef(self.namespace + rel_to_remove)
+            if str(rel_to_add).startswith('http'):
+                rel_to_add = URIRef(rel_to_add)
+            else:
+                rel_to_add = URIRef(self.namespace + rel_to_add)
+            for s, o in self.store.graph.subject_objects(rel_to_remove):
+                self.store.remove((s, rel_to_remove, o))
+                self.store.add((s, rel_to_add, o))
 
     def close(self):
         self.store.close()
@@ -130,6 +147,14 @@ class Triplify:
         s = self.store.serialize('turtle')
         logging.debug(s)
 
-    def save(self, output):
+    def save_rdf(self, output):
+        filename = output + '.rdf'
         s = self.store.serialize('xml')
-        write_file(output, s)
+        write_file(filename, s)
+        logging.info('\nStore saved at: ' + filename)
+
+    def save_ttl(self, output):
+        filename = output + '.ttl'
+        s = self.store.serialize('turtle')
+        write_file(filename, s)
+        logging.info('\nStore saved at: ' + filename)

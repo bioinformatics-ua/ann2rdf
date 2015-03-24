@@ -2,6 +2,8 @@ __author__ = 'Pedro Sernadela sernadela@ua.pt'
 
 import json
 import logging
+from os.path import isdir
+from os import listdir
 
 
 def get_config_file(filename):
@@ -32,3 +34,14 @@ def write_file(filename, content):
     f = open(filename, 'w')
     f.write(content)
     f.close()
+
+
+# return files from dir
+def get_files_from_dir(args_input):
+    input_files = []
+    if isdir(args_input):
+        for f in listdir(args_input):
+            input_files.append(args_input + '/' + f)
+    else:
+        input_files.append(args_input)
+    return input_files

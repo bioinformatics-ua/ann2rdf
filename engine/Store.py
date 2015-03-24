@@ -12,6 +12,9 @@ class Store:
     def add(self, (s, p, o)):
         self.graph.add((s, p, o))
 
+    def remove(self, (s, p, o)):
+        self.graph.remove((s, p, o))
+
     def load(self, url):
         self.graph.load(url)
 

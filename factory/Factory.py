@@ -19,6 +19,6 @@ class Factory:
             raise Exception('Not supported file type: ' + filename)
 
         if not isinstance(fact, FactoryBase):
-            raise Exception('Class is not instance of FactoryBase')
+            raise TypeError('Class is not instance of FactoryBase')
 
         return fact

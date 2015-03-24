@@ -1,0 +1,1267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ao="http://purl.org/ao/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:ns1="http://purl.org/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:slito="http://bioinformatics.ua.pt/slito/"
+>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T28_Naee6149ed6954906af66c1dd67b7aca0">
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">979</ao:range>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>VEGF</ao:exact>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">975</ao:offset>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T57_N63d6801d3e9442d89a88f6a288ee161b">
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T57_N63d6801d3e9442d89a88f6a288ee161b"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Gene</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E24_Nd4a6dda5263d49aa8c7d5ca52e3832c0">
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/E64_Nd4a6dda5263d49aa8c7d5ca52e3832c0"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ns1:cause rdf:resource="http://bioinformatics.ua.pt/slito/E23_Nd4a6dda5263d49aa8c7d5ca52e3832c0"/>
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T81_Nd4a6dda5263d49aa8c7d5ca52e3832c0"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T39_N49b8d9a6225b4a899448b019e1c32589">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T39_N49b8d9a6225b4a899448b019e1c32589"/>
+    <ao:body>Tissue</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T31_Nc31f15b90d4745b6a388a0033b53feee">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1018</ao:range>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">992</ao:offset>
+    <ao:exact>capillary endothelial cell</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T38_N7ec14f82d4d34ed3857d02c5fc4fadae">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>inner nuclear</ao:exact>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1239</ao:offset>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1252</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T61_N1710790c8a3843529cddd35cd8a506ce">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T61_N1710790c8a3843529cddd35cd8a506ce"/>
+    <ao:body>Transcription</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T40_Na9ec10d83ebf403093b0f6beeea36fbe">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>insulin</ao:exact>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1285</ao:offset>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1292</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T70_N98b35f72da504fe8af8a47374a50f8bb">
+    <ao:exact>promoter</ao:exact>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1088</ao:range>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1080</ao:offset>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T22_N2e9c6129b3a040ec8139f756ff723946">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T22_N2e9c6129b3a040ec8139f756ff723946"/>
+    <ao:body>Planned_process</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T56_Na6a9d6f679404147896452c89d0a9570">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1736</ao:range>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1705</ao:offset>
+    <ao:exact>anti-VEGF neutralizing antibody</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T48_N04852a027ef843068e0850e7b877bb66">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1583</ao:range>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1576</ao:offset>
+    <ao:exact>insulin</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T55_N36748bb9850c484ba08f52238f921827">
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T55_N36748bb9850c484ba08f52238f921827"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:body>Regulation</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T60_N73b0f3b238da432695fc02efd24897d5">
+    <ao:body>Positive_regulation</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T60_N73b0f3b238da432695fc02efd24897d5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T34_N78544ec8eb834363affe571291716154">
+    <ao:body>Gene</ao:body>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T34_N78544ec8eb834363affe571291716154"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E6_N4460de730f9f4a31bf4febc032e49164">
+    <ns1:cause rdf:resource="http://bioinformatics.ua.pt/slito/T17_N4460de730f9f4a31bf4febc032e49164"/>
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T55_N4460de730f9f4a31bf4febc032e49164"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/E18_N4460de730f9f4a31bf4febc032e49164"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T1001_N4382dcdf8d0e4ee5bd9e4dcec91fc349">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T1001_N4382dcdf8d0e4ee5bd9e4dcec91fc349"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:body>Organism</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/test_files/brat_sample">
+    <rdf:type rdf:resource="http://purl.org/pav/SourceDocument"/>
+    <dc:identifier>test_files/brat_sample</dc:identifier>
+    <dc:description></dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T13_N4b6d3f6ea9a34dbda72d3b8e3d2243ba">
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T13_N4b6d3f6ea9a34dbda72d3b8e3d2243ba"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Gene</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T14_N03dbd260a76c4c3e960f3a5e2a078b9c">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T14_N03dbd260a76c4c3e960f3a5e2a078b9c"/>
+    <ao:body>Gene_expression</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T25_N5c6220e461b540f385448aeb61ade623">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T25_N5c6220e461b540f385448aeb61ade623"/>
+    <ao:body>Gene</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T18_N3940e9219ce1499cadf0fd622dd69ee2">
+    <ao:exact>expression</ao:exact>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">763</ao:range>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">753</ao:offset>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E14_N08ffdb0b63c94a089f1a2cf4d5bed936">
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T14_N08ffdb0b63c94a089f1a2cf4d5bed936"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/T15_N08ffdb0b63c94a089f1a2cf4d5bed936"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E21_N61d080b440ce4520bca573bbdd061381">
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ns1:cause rdf:resource="http://bioinformatics.ua.pt/slito/E22_N61d080b440ce4520bca573bbdd061381"/>
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T79_N61d080b440ce4520bca573bbdd061381"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/T58_N61d080b440ce4520bca573bbdd061381"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T46_Ndb2c3ed618aa4acdbee944b47d4f9acd">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1448</ao:offset>
+    <ao:exact>VEGF</ao:exact>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1452</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T19_N96e16c31e47c45a996b0b48d0078349d">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Gene</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T19_N96e16c31e47c45a996b0b48d0078349d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T64_N69b24570b9a0484f9ec0eaba06ad0c18">
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</ao:offset>
+    <ao:exact>expression</ao:exact>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</ao:range>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T45_N54e143c21033470b9320177566103c92">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T45_N54e143c21033470b9320177566103c92"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:body>Gene</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E12_N87126a09bba44c149cb2c1052e56480a">
+    <slito:Instrument rdf:resource="http://bioinformatics.ua.pt/slito/T21_N87126a09bba44c149cb2c1052e56480a"/>
+    <slito:Instrument rdf:resource="http://bioinformatics.ua.pt/slito/T70_N87126a09bba44c149cb2c1052e56480a"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T71_N87126a09bba44c149cb2c1052e56480a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T76_N2b5e42b812d442359dea4944cb6c0322">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1438</ao:offset>
+    <ao:exact>increased</ao:exact>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1447</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/R2_N2be99446937e44879563144b99f76fc9">
+    <ao:body>frag</ao:body>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <slito:Arg1 rdf:resource="http://bioinformatics.ua.pt/slito/T37_N2be99446937e44879563144b99f76fc9"/>
+    <slito:Arg2 rdf:resource="http://bioinformatics.ua.pt/slito/T39_N2be99446937e44879563144b99f76fc9"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T72_N9a453b49454144ea92c5c2a79474c611">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Positive_regulation</ao:body>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T72_N9a453b49454144ea92c5c2a79474c611"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T1003_N32612f0b87a24d4d91b9fc7411416694">
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1323</ao:offset>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1328</ao:range>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>human</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T34_N78544ec8eb834363affe571291716154">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>VEGF</ao:exact>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1075</ao:offset>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1079</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T18_N3940e9219ce1499cadf0fd622dd69ee2">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Gene_expression</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T18_N3940e9219ce1499cadf0fd622dd69ee2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T22_N2e9c6129b3a040ec8139f756ff723946">
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">148</ao:range>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>therapy</ao:exact>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141</ao:offset>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T79_Nfe5cfd8c88fd41a6a99e6b012536cee6">
+    <ao:body>Positive_regulation</ao:body>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T79_Nfe5cfd8c88fd41a6a99e6b012536cee6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T23_Nb24363595a8b4d5db947bd94e7f02702">
+    <ao:exact>insulin</ao:exact>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">833</ao:range>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">826</ao:offset>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T52_N4d6d6208a0a641a7b618d211540a689f">
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1649</ao:offset>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1662</ao:range>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>proliferation</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T1003_N32612f0b87a24d4d91b9fc7411416694">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:body>Organism</ao:body>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T1003_N32612f0b87a24d4d91b9fc7411416694"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T57_N63d6801d3e9442d89a88f6a288ee161b">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1758</ao:range>
+    <ao:exact>Insulin</ao:exact>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1751</ao:offset>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T35_N7e7e68f082ca40c88aec181da2a95772">
+    <ao:body>Gene</ao:body>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T35_N7e7e68f082ca40c88aec181da2a95772"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T66_N900eca653de048bc9171e4bd99bdef09">
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</ao:offset>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</ao:range>
+    <ao:exact>VEGF</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T33_Nd83535da55b54120afef9b633d7d81cd">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1050</ao:offset>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1057</ao:range>
+    <ao:exact>insulin</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T47_Nf8da34e167bc45438421e04f82442376">
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T47_Nf8da34e167bc45438421e04f82442376"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>http://purl.bioontology.org/ontology/SNOMEDCT/4421005</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T15_N138dc30236a74e02bc17c7626be07f10">
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">592</ao:offset>
+    <ao:exact>VEGF</ao:exact>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">596</ao:range>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T1_N7305e3896d9e447d86c14ed467d488a1">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T1_N7305e3896d9e447d86c14ed467d488a1"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:body>Gene_expression</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T32_Nfe9d295a0baf4cc5b5ed434c7ab0f24b">
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">492</ao:range>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">486</ao:offset>
+    <ao:exact>effect</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T27_N13961cd42cfe424caf9caa4a3a03e05a">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T27_N13961cd42cfe424caf9caa4a3a03e05a"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:body>http://purl.bioontology.org/ontology/SNOMEDCT/4421005</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T65_Nd98689baa75d43f49d6198975f02af85">
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">822</ao:range>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">815</ao:offset>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>exposed</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T8_N16c0fd107c334902923d5d62bb376c07">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>VEGF</ao:exact>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">362</ao:range>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">358</ao:offset>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T1_Na9b9c173d8454d7a8fda2f7702b03b5e">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>http://purl.bioontology.org/ontology/SNOMEDCT/4421005</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/PMID3429544"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T1_Na9b9c173d8454d7a8fda2f7702b03b5e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T11_N3ba4a03f1e254b7eb64ada2c6cf7b2dc">
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T11_N3ba4a03f1e254b7eb64ada2c6cf7b2dc"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Positive_regulation</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T65_Nd98689baa75d43f49d6198975f02af85">
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T65_Nd98689baa75d43f49d6198975f02af85"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Planned_process</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T74_Nc9849ebf27a24110bf3b52011a7bebd5">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T74_Nc9849ebf27a24110bf3b52011a7bebd5"/>
+    <ao:body>DNA_domain_or_region</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T68_N71be15bdbe81407ebb8307e3dab915aa">
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">970</ao:range>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>assayed</ao:exact>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">963</ao:offset>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T52_N4d6d6208a0a641a7b618d211540a689f">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Cell_proliferation</ao:body>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T52_N4d6d6208a0a641a7b618d211540a689f"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T47_Nf8da34e167bc45438421e04f82442376">
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1491</ao:range>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>RPE cell</ao:exact>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1483</ao:offset>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T3_N5ffbfa1539f84226af298ed54cae0675">
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ao:offset>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</ao:range>
+    <ao:exact>vascular endothelial growth factor</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E3_N7038530a7b6043028c3febd4afd38300">
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T22_N7038530a7b6043028c3febd4afd38300"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <slito:Instrument rdf:resource="http://bioinformatics.ua.pt/slito/T5_N7038530a7b6043028c3febd4afd38300"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E1_N3ba7d26a66694ae8a31950e514627832">
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T1_N3ba7d26a66694ae8a31950e514627832"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/T3_N3ba7d26a66694ae8a31950e514627832"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T5_N8e00251e03d242f485edb990ab5e26e9">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T5_N8e00251e03d242f485edb990ab5e26e9"/>
+    <ao:body>Gene</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T21_Na13bb8426fcf454a968766434473efba">
+    <ao:body>Gene</ao:body>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T21_Na13bb8426fcf454a968766434473efba"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E15_Nedb3b51dca8b412ab22bc9c4cf24ae7c">
+    <ns1:cause rdf:resource="http://bioinformatics.ua.pt/slito/T40_Nedb3b51dca8b412ab22bc9c4cf24ae7c"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T73_Nedb3b51dca8b412ab22bc9c4cf24ae7c"/>
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/T43_Nedb3b51dca8b412ab22bc9c4cf24ae7c"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <slito:Site rdf:resource="http://bioinformatics.ua.pt/slito/T74_Nedb3b51dca8b412ab22bc9c4cf24ae7c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T62_Nf2a648e13b814760ac2836c25eea7375">
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1858</ao:offset>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>VEGF</ao:exact>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1862</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E9_Nfa2ba74ae7764fdc9790ed259edf7092">
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/T27_Nfa2ba74ae7764fdc9790ed259edf7092"/>
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T68_Nfa2ba74ae7764fdc9790ed259edf7092"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T4_N700631a2ea404617803fa97c5dfcbb46">
+    <ao:body>Multi-tissue_structure</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T4_N700631a2ea404617803fa97c5dfcbb46"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T76_N2b5e42b812d442359dea4944cb6c0322">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T76_N2b5e42b812d442359dea4944cb6c0322"/>
+    <ao:body>Positive_regulation</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T49_Nb8d31c7f6ca34804b2a58600a99343d9">
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T49_Nb8d31c7f6ca34804b2a58600a99343d9"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>http://purl.bioontology.org/ontology/SNOMEDCT/4421005</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T10_N3d00755b6cd647e5839e98382a77284c">
+    <ao:body>Gene_expression</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T10_N3d00755b6cd647e5839e98382a77284c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E44_N2b273af493414b88955de6079d2e6efd">
+    <slito:Instrument rdf:resource="http://bioinformatics.ua.pt/slito/T45_N2b273af493414b88955de6079d2e6efd"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T44_N2b273af493414b88955de6079d2e6efd"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T30_Nce8b19a6a7644f0da75d6a8ee9c19670">
+    <ao:exact>proliferation</ao:exact>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1019</ao:offset>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1032</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T7_Ne3f4065eebbe4161be0dbe072df09c6a">
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">322</ao:offset>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">356</ao:range>
+    <ao:exact>Vascular endothelial growth factor</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T59_Nd0d75f6426504de098ef874072203551">
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1819</ao:range>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1810</ao:offset>
+    <ao:exact>RPE cells</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T37_N0a84fa077b27448b8f7a3e99163e80b1">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Tissue</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T37_N0a84fa077b27448b8f7a3e99163e80b1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E8_N1db9f168939b40c99cad07c7ff15e206">
+    <slito:Instrument rdf:resource="http://bioinformatics.ua.pt/slito/T26_N1db9f168939b40c99cad07c7ff15e206"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/T27_N1db9f168939b40c99cad07c7ff15e206"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T67_N1db9f168939b40c99cad07c7ff15e206"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T19_N96e16c31e47c45a996b0b48d0078349d">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">752</ao:range>
+    <ao:exact>VEGF</ao:exact>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">748</ao:offset>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T17_N043dea85a3284958b4dd2666da878d70">
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">737</ao:range>
+    <ao:exact>insulin</ao:exact>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">730</ao:offset>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T38_N7ec14f82d4d34ed3857d02c5fc4fadae">
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T38_N7ec14f82d4d34ed3857d02c5fc4fadae"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Tissue</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T24_N343f6dd8850048cf92c3ae0cfd38babe">
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">839</ao:offset>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>VEGF</ao:exact>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">843</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E13_N12c77369c8ea42ca91b0dc0d0b0599c4">
+    <ns1:cause rdf:resource="http://bioinformatics.ua.pt/slito/T35_N12c77369c8ea42ca91b0dc0d0b0599c4"/>
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/T36_N12c77369c8ea42ca91b0dc0d0b0599c4"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T72_N12c77369c8ea42ca91b0dc0d0b0599c4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T56_Na6a9d6f679404147896452c89d0a9570">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Gene</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T56_Na6a9d6f679404147896452c89d0a9570"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T58_Ne6752814a042409f84f0c6fb68caa14f">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Gene</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T58_Ne6752814a042409f84f0c6fb68caa14f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T32_Nfe9d295a0baf4cc5b5ed434c7ab0f24b">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T32_Nfe9d295a0baf4cc5b5ed434c7ab0f24b"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:body>Regulation</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T42_Necd6d97c52c04763af2e3322b58e4fb9">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:body>http://purl.bioontology.org/ontology/SNOMEDCT/4421005</ao:body>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T42_Necd6d97c52c04763af2e3322b58e4fb9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T77_Ned502e49c597475eb208fcab4755fc6e">
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T77_Ned502e49c597475eb208fcab4755fc6e"/>
+    <ao:body>Positive_regulation</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T59_Nd0d75f6426504de098ef874072203551">
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T59_Nd0d75f6426504de098ef874072203551"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>http://purl.bioontology.org/ontology/SNOMEDCT/4421005</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T12_N9afed17b1c484b76b76596473fc1a219">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T12_N9afed17b1c484b76b76596473fc1a219"/>
+    <ao:body>Gene</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E18_N1a1d5b67526d437784a3bc5e61eef1a2">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T18_N1a1d5b67526d437784a3bc5e61eef1a2"/>
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/T19_N1a1d5b67526d437784a3bc5e61eef1a2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E17_N0fe453cdd6594134afeef85a95c74544">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T76_N0fe453cdd6594134afeef85a95c74544"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/T46_N0fe453cdd6594134afeef85a95c74544"/>
+    <ns1:cause rdf:resource="http://bioinformatics.ua.pt/slito/E44_N0fe453cdd6594134afeef85a95c74544"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T9_N26c3263525ec4c6d9d1fd53f626d5ce8">
+    <ao:exact>insulin</ao:exact>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">496</ao:offset>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">503</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T69_N8d905b1bacad4cb0a817dd4a01f7c3fc">
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T69_N8d905b1bacad4cb0a817dd4a01f7c3fc"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Positive_regulation</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T45_N54e143c21033470b9320177566103c92">
+    <ao:exact>Insulin</ao:exact>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1422</ao:range>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1415</ao:offset>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E4_N2ba6d4b962dc4cbb854566889053aa9a">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T32_N2ba6d4b962dc4cbb854566889053aa9a"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/E10_N2ba6d4b962dc4cbb854566889053aa9a"/>
+    <ns1:cause rdf:resource="http://bioinformatics.ua.pt/slito/T9_N2ba6d4b962dc4cbb854566889053aa9a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T40_Na9ec10d83ebf403093b0f6beeea36fbe">
+    <ao:body>Gene</ao:body>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T40_Na9ec10d83ebf403093b0f6beeea36fbe"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T74_Nc9849ebf27a24110bf3b52011a7bebd5">
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1365</ao:range>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1357</ao:offset>
+    <ao:exact>promoter</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/R1_N931cc61521fe420e9dabc674b39769c0">
+    <slito:Arg1 rdf:resource="http://bioinformatics.ua.pt/slito/T38_N931cc61521fe420e9dabc674b39769c0"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>frag</ao:body>
+    <slito:Arg2 rdf:resource="http://bioinformatics.ua.pt/slito/T39_N931cc61521fe420e9dabc674b39769c0"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T71_N794a023d1fb1470db688012b7addab56">
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T71_N794a023d1fb1470db688012b7addab56"/>
+    <ao:body>Planned_process</ao:body>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T36_N1692af89b6f04ebab25f0f135e5d198a">
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1205</ao:offset>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1209</ao:range>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>VEGF</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T12_N9afed17b1c484b76b76596473fc1a219">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>VEGF</ao:exact>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">519</ao:range>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">515</ao:offset>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T43_Ne152c05e1aea4c768c16dc22e29395c7">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T43_Ne152c05e1aea4c768c16dc22e29395c7"/>
+    <ao:body>Gene</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T50_N9e1e3915d76c48a8836ddbf33e9a110d">
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:body>Gene</ao:body>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T50_N9e1e3915d76c48a8836ddbf33e9a110d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E11_N6a924e9969d34dc483684318bc248903">
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <slito:Site rdf:resource="http://bioinformatics.ua.pt/slito/T70_N6a924e9969d34dc483684318bc248903"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/T34_N6a924e9969d34dc483684318bc248903"/>
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T69_N6a924e9969d34dc483684318bc248903"/>
+    <ns1:cause rdf:resource="http://bioinformatics.ua.pt/slito/T33_N6a924e9969d34dc483684318bc248903"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E20_N94dffcdabb274d1997970198dca42a2e">
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/E19_N94dffcdabb274d1997970198dca42a2e"/>
+    <ns1:cause rdf:resource="http://bioinformatics.ua.pt/slito/T56_N94dffcdabb274d1997970198dca42a2e"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T78_N94dffcdabb274d1997970198dca42a2e"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E52_N248c86a34b3a47c792b8c89406735bf6">
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T52_N248c86a34b3a47c792b8c89406735bf6"/>
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/T53_N248c86a34b3a47c792b8c89406735bf6"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T8_N16c0fd107c334902923d5d62bb376c07">
+    <ao:body>Gene</ao:body>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T8_N16c0fd107c334902923d5d62bb376c07"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T16_N2334d808f18e43ccae0643ac233dbc65">
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T16_N2334d808f18e43ccae0643ac233dbc65"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:body>Gene</ao:body>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T54_N1b07640afa5a42778a4b230152e1af7f">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>effect</ao:exact>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">577</ao:range>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">571</ao:offset>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T26_Nb3ce392d8eb34d97a4170ad34847e8f3">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Gene</ao:body>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T26_Nb3ce392d8eb34d97a4170ad34847e8f3"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T15_N138dc30236a74e02bc17c7626be07f10">
+    <ao:body>Gene</ao:body>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T15_N138dc30236a74e02bc17c7626be07f10"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T42_Necd6d97c52c04763af2e3322b58e4fb9">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1338</ao:range>
+    <ao:exact>RPE cells</ao:exact>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1329</ao:offset>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T36_N1692af89b6f04ebab25f0f135e5d198a">
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T36_N1692af89b6f04ebab25f0f135e5d198a"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Gene</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T28_Naee6149ed6954906af66c1dd67b7aca0">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:body>Gene</ao:body>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T28_Naee6149ed6954906af66c1dd67b7aca0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T1004_N87050e82476a48089214d7dc5aae2ff0">
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1945</ao:offset>
+    <ao:exact>patients</ao:exact>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1953</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T1_N7305e3896d9e447d86c14ed467d488a1">
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</ao:offset>
+    <ao:exact>expression</ao:exact>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T2_N0141cb7d15d94b6e8140eba786497afe">
+    <ao:body>http://purl.bioontology.org/ontology/SNOMEDCT/4421005</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/PMID3429544"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T2_N0141cb7d15d94b6e8140eba786497afe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T43_Ne152c05e1aea4c768c16dc22e29395c7">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>VEGF</ao:exact>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1356</ao:range>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1352</ao:offset>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E22_N5890d0a4e4bb4d46be503841662b9a18">
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T60_N5890d0a4e4bb4d46be503841662b9a18"/>
+    <ns1:cause rdf:resource="http://bioinformatics.ua.pt/slito/T57_N5890d0a4e4bb4d46be503841662b9a18"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/E61_N5890d0a4e4bb4d46be503841662b9a18"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T77_Ned502e49c597475eb208fcab4755fc6e">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>stimulated</ao:exact>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1621</ao:range>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1611</ao:offset>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T49_Nb8d31c7f6ca34804b2a58600a99343d9">
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1596</ao:offset>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1604</ao:range>
+    <ao:exact>RPE cell</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T69_N8d905b1bacad4cb0a817dd4a01f7c3fc">
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1070</ao:range>
+    <ao:exact>stimulate</ao:exact>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1061</ao:offset>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T53_N3ac223d6658747b28e20b008843ce2cc">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1622</ao:offset>
+    <ao:exact>capillary endothelial cell</ao:exact>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1648</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T75_N9d276d6f526c473fbaccd8f59483b0f8">
+    <ao:exact>increased</ao:exact>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1293</ao:offset>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1302</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T1001_N4382dcdf8d0e4ee5bd9e4dcec91fc349">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">668</ao:range>
+    <ao:exact>rat</ao:exact>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">665</ao:offset>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T20_N9905185c8e434d889bd468fe499ddc76">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T20_N9905185c8e434d889bd468fe499ddc76"/>
+    <ao:body>http://purl.bioontology.org/ontology/SNOMEDCT/4421005</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T24_N343f6dd8850048cf92c3ae0cfd38babe">
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T24_N343f6dd8850048cf92c3ae0cfd38babe"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Gene</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T73_N39d4de8238d84f98bfe7d42217eeadb1">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T73_N39d4de8238d84f98bfe7d42217eeadb1"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:body>Positive_regulation</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T23_Nb24363595a8b4d5db947bd94e7f02702">
+    <ao:body>Gene</ao:body>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T23_Nb24363595a8b4d5db947bd94e7f02702"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T26_Nb3ce392d8eb34d97a4170ad34847e8f3">
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">939</ao:range>
+    <ao:exact>insulin</ao:exact>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">932</ao:offset>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T25_N5c6220e461b540f385448aeb61ade623">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">877</ao:offset>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">882</ao:range>
+    <ao:exact>RNase</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T48_N04852a027ef843068e0850e7b877bb66">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T48_N04852a027ef843068e0850e7b877bb66"/>
+    <ao:body>Gene</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T67_N0d2eecc1671d4a89a9099f682fcd47a9">
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T67_N0d2eecc1671d4a89a9099f682fcd47a9"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Planned_process</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T6_N737fb8c4a35a4672981732808d1728df">
+    <ao:exact>insulin</ao:exact>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">232</ao:offset>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">239</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T62_Nf2a648e13b814760ac2836c25eea7375">
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T62_Nf2a648e13b814760ac2836c25eea7375"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Gene</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T9_N26c3263525ec4c6d9d1fd53f626d5ce8">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T9_N26c3263525ec4c6d9d1fd53f626d5ce8"/>
+    <ao:body>Gene</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T67_N0d2eecc1671d4a89a9099f682fcd47a9">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">940</ao:offset>
+    <ao:exact>treated</ao:exact>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">947</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T14_N03dbd260a76c4c3e960f3a5e2a078b9c">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">607</ao:range>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">597</ao:offset>
+    <ao:exact>expression</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T27_N13961cd42cfe424caf9caa4a3a03e05a">
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">948</ao:offset>
+    <ao:exact>RPE cells</ao:exact>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">957</ao:range>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T3_N5ffbfa1539f84226af298ed54cae0675">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Gene</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T3_N5ffbfa1539f84226af298ed54cae0675"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T37_N0a84fa077b27448b8f7a3e99163e80b1">
+    <ao:exact>ganglion</ao:exact>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1237</ao:range>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1229</ao:offset>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T41_N4057ca0938d3460997df904c6c28c802">
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T41_N4057ca0938d3460997df904c6c28c802"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Gene</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T1_Na9b9c173d8454d7a8fda2f7702b03b5e">
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ao:offset>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>pathway</ao:exact>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T72_N9a453b49454144ea92c5c2a79474c611">
+    <ao:exact>increased</ao:exact>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1204</ao:range>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1195</ao:offset>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T20_N9905185c8e434d889bd468fe499ddc76">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">771</ao:offset>
+    <ao:exact>retinal pigment epithelial (RPE) cells</ao:exact>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">809</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T39_N49b8d9a6225b4a899448b019e1c32589">
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1273</ao:range>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1258</ao:offset>
+    <ao:exact>RPE cell layers</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T1000_N49a6e05887d54c05a7d6cd702f9d7b74">
+    <ao:body>Organism</ao:body>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T1000_N49a6e05887d54c05a7d6cd702f9d7b74"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T80_Nb21f5245a30d4e68853433615ddfa4e0">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T80_Nb21f5245a30d4e68853433615ddfa4e0"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:body>Planned_process</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T81_N76e0a1ce963744709737a727d272cf2e">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1985</ao:range>
+    <ao:exact>increased</ao:exact>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1976</ao:offset>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T5_N8e00251e03d242f485edb990ab5e26e9">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">133</ao:offset>
+    <ao:exact>insulin</ao:exact>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T58_Ne6752814a042409f84f0c6fb68caa14f">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1769</ao:offset>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1773</ao:range>
+    <ao:exact>VEGF</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T50_N9e1e3915d76c48a8836ddbf33e9a110d">
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1714</ao:range>
+    <ao:exact>VEGF</ao:exact>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1710</ao:offset>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E5_Nb1f821d05a9341bdacaea753748442f6">
+    <ns1:cause rdf:resource="http://bioinformatics.ua.pt/slito/T13_Nb1f821d05a9341bdacaea753748442f6"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/E14_Nb1f821d05a9341bdacaea753748442f6"/>
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T54_Nb1f821d05a9341bdacaea753748442f6"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T73_N39d4de8238d84f98bfe7d42217eeadb1">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1343</ao:offset>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1351</ao:range>
+    <ao:exact>enhanced</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T81_N76e0a1ce963744709737a727d272cf2e">
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T81_N76e0a1ce963744709737a727d272cf2e"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Positive_regulation</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E19_N48ddc98a2fe34f3fbb7c0817e9256a83">
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T77_N48ddc98a2fe34f3fbb7c0817e9256a83"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/E52_N48ddc98a2fe34f3fbb7c0817e9256a83"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T54_N1b07640afa5a42778a4b230152e1af7f">
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T54_N1b07640afa5a42778a4b230152e1af7f"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:body>Regulation</ao:body>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T41_N4057ca0938d3460997df904c6c28c802">
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1307</ao:range>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1303</ao:offset>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>VEGF</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T53_N3ac223d6658747b28e20b008843ce2cc">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>http://purl.bioontology.org/ontology/SNOMEDCT/4421005</ao:body>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T53_N3ac223d6658747b28e20b008843ce2cc"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T31_Nc31f15b90d4745b6a388a0033b53feee">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T31_Nc31f15b90d4745b6a388a0033b53feee"/>
+    <ao:body>http://purl.bioontology.org/ontology/SNOMEDCT/4421005</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T61_N1710790c8a3843529cddd35cd8a506ce">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>transcription</ao:exact>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1837</ao:offset>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1850</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E16_N11c16eaf053f48ba83a6f8cc17cee057">
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T75_N11c16eaf053f48ba83a6f8cc17cee057"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ns1:cause rdf:resource="http://bioinformatics.ua.pt/slito/T40_N11c16eaf053f48ba83a6f8cc17cee057"/>
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/T41_N11c16eaf053f48ba83a6f8cc17cee057"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T13_N4b6d3f6ea9a34dbda72d3b8e3d2243ba">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">588</ao:range>
+    <ao:exact>insulin</ao:exact>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">581</ao:offset>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T44_N14715c20350c4ba09e2b32e99fd33ab8">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1432</ao:range>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1423</ao:offset>
+    <ao:exact>treatment</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T2_N0141cb7d15d94b6e8140eba786497afe">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ao:range>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71</ao:offset>
+    <ao:exact>mitochondrial</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T68_N71be15bdbe81407ebb8307e3dab915aa">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T68_N71be15bdbe81407ebb8307e3dab915aa"/>
+    <ao:body>Planned_process</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E2_N64cff894c723449d9af9f09454c46ac6">
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T11_N64cff894c723449d9af9f09454c46ac6"/>
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/E1_N64cff894c723449d9af9f09454c46ac6"/>
+    <ns1:cause rdf:resource="http://bioinformatics.ua.pt/slito/T2_N64cff894c723449d9af9f09454c46ac6"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E61_Nf697f380ebce44debe8e6f32385f3f82">
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/T62_Nf697f380ebce44debe8e6f32385f3f82"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T61_Nf697f380ebce44debe8e6f32385f3f82"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T71_N794a023d1fb1470db688012b7addab56">
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1089</ao:offset>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1095</ao:range>
+    <ao:exact>linked</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T79_Nfe5cfd8c88fd41a6a99e6b012536cee6">
+    <ao:exact>increases</ao:exact>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1759</ao:offset>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1768</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T75_N9d276d6f526c473fbaccd8f59483b0f8">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Positive_regulation</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T75_N9d276d6f526c473fbaccd8f59483b0f8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T55_N36748bb9850c484ba08f52238f921827">
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">747</ao:range>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">738</ao:offset>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>regulates</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T11_N3ba4a03f1e254b7eb64ada2c6cf7b2dc">
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ao:range>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ao:offset>
+    <ao:exact>induced</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T1002_N8dd38ff68b9b4637a54e94288d5744d1">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>human</ao:exact>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">770</ao:range>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">765</ao:offset>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E10_N0fc82fc3bbf14ab68827cd12b9a26111">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T10_N0fc82fc3bbf14ab68827cd12b9a26111"/>
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/T12_N0fc82fc3bbf14ab68827cd12b9a26111"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/PMID3429544">
+    <rdf:type rdf:resource="http://purl.org/pav/SourceDocument"/>
+    <dc:description>
+                Autophagy is induced through the ROS-TP53-DRAM1 pathway in response to mitochondrial protein synthesis inhibition
+            </dc:description>
+    <dc:identifier>PMID3429544</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T63_N7ce63d0a08d54166b4d7575cdb463c7b">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1879</ao:offset>
+    <ao:exact>insulin</ao:exact>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1886</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T2_N4dc2a4d1611e4be2a1e970eca7d8184d">
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ao:offset>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ao:range>
+    <ao:exact>Insulin</ao:exact>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T1002_N8dd38ff68b9b4637a54e94288d5744d1">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T1002_N8dd38ff68b9b4637a54e94288d5744d1"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:body>Organism</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T17_N043dea85a3284958b4dd2666da878d70">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T17_N043dea85a3284958b4dd2666da878d70"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:body>Gene</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T2_N4dc2a4d1611e4be2a1e970eca7d8184d">
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T2_N4dc2a4d1611e4be2a1e970eca7d8184d"/>
+    <ao:body>Gene</ao:body>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T4_N700631a2ea404617803fa97c5dfcbb46">
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71</ao:range>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</ao:offset>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>retina</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T70_N98b35f72da504fe8af8a47374a50f8bb">
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T70_N98b35f72da504fe8af8a47374a50f8bb"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>DNA_domain_or_region</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T80_Nb21f5245a30d4e68853433615ddfa4e0">
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>therapy</ao:exact>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1887</ao:offset>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1894</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T78_Nf7e96ae41f354ce29a56053e7ccf2803">
+    <ao:exact>blocked</ao:exact>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1694</ao:offset>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1701</ao:range>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/R1_Nab9da1dd94034c1cb26ef3621a7d4838">
+    <ao:body>Interacts</ao:body>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/PMID3429544"/>
+    <dc:related rdf:resource="http://bioinformatics.ua.pt/slito/T2_Nab9da1dd94034c1cb26ef3621a7d4838"/>
+    <dc:related rdf:resource="http://bioinformatics.ua.pt/slito/T1_Nab9da1dd94034c1cb26ef3621a7d4838"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T63_N7ce63d0a08d54166b4d7575cdb463c7b">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T63_N7ce63d0a08d54166b4d7575cdb463c7b"/>
+    <ao:body>Gene</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T44_N14715c20350c4ba09e2b32e99fd33ab8">
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:body>Planned_process</ao:body>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T44_N14715c20350c4ba09e2b32e99fd33ab8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T60_N73b0f3b238da432695fc02efd24897d5">
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1828</ao:offset>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1836</ao:range>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:exact>enhanced</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T16_N2334d808f18e43ccae0643ac233dbc65">
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">681</ao:range>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">677</ao:offset>
+    <ao:exact>VEGF</ao:exact>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T46_Ndb2c3ed618aa4acdbee944b47d4f9acd">
+    <ao:body>Gene</ao:body>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T46_Ndb2c3ed618aa4acdbee944b47d4f9acd"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E64_Na7a58f5d214a4b13990146d674d59b1d">
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T64_Na7a58f5d214a4b13990146d674d59b1d"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/T66_Na7a58f5d214a4b13990146d674d59b1d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T33_Nd83535da55b54120afef9b633d7d81cd">
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T33_Nd83535da55b54120afef9b633d7d81cd"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Gene</ao:body>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E23_N8bd3d3e9430f44aca58beda6f1ed70c4">
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T80_N8bd3d3e9430f44aca58beda6f1ed70c4"/>
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/T1004_N8bd3d3e9430f44aca58beda6f1ed70c4"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <slito:Instrument rdf:resource="http://bioinformatics.ua.pt/slito/T63_N8bd3d3e9430f44aca58beda6f1ed70c4"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T78_Nf7e96ae41f354ce29a56053e7ccf2803">
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Negative_regulation</ao:body>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T78_Nf7e96ae41f354ce29a56053e7ccf2803"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T30_Nce8b19a6a7644f0da75d6a8ee9c19670">
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T30_Nce8b19a6a7644f0da75d6a8ee9c19670"/>
+    <ao:body>Cell_proliferation</ao:body>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T1004_N87050e82476a48089214d7dc5aae2ff0">
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:body>Organism</ao:body>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T1004_N87050e82476a48089214d7dc5aae2ff0"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E30_Ne50488b200aa45549356e77c52e232f5">
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/T31_Ne50488b200aa45549356e77c52e232f5"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T30_Ne50488b200aa45549356e77c52e232f5"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/E7_N2d373f91b80947969d0c1da651524248">
+    <slito:trigger2 rdf:resource="http://bioinformatics.ua.pt/slito/T65_N2d373f91b80947969d0c1da651524248"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <slito:Instrument rdf:resource="http://bioinformatics.ua.pt/slito/T23_N2d373f91b80947969d0c1da651524248"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <slito:Theme rdf:resource="http://bioinformatics.ua.pt/slito/T20_N2d373f91b80947969d0c1da651524248"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T64_N69b24570b9a0484f9ec0eaba06ad0c18">
+    <ao:body>Gene_expression</ao:body>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T64_N69b24570b9a0484f9ec0eaba06ad0c18"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T7_Ne3f4065eebbe4161be0dbe072df09c6a">
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T7_Ne3f4065eebbe4161be0dbe072df09c6a"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Gene</ao:body>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T35_N7e7e68f082ca40c88aec181da2a95772">
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1187</ao:offset>
+    <ao:exact>Insulin</ao:exact>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1194</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T1000_N49a6e05887d54c05a7d6cd702f9d7b74">
+    <ao:exact>patients</ao:exact>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">283</ao:offset>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">291</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T6_N737fb8c4a35a4672981732808d1728df">
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:body>Gene</ao:body>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T6_N737fb8c4a35a4672981732808d1728df"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T21_Na13bb8426fcf454a968766434473efba">
+    <ao:exact>luciferase</ao:exact>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1101</ao:offset>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1111</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/context_T10_N3d00755b6cd647e5839e98382a77284c">
+    <ao:exact>expression</ao:exact>
+    <rdf:type rdf:resource="http://purl.org/ao/TextSelector"/>
+    <ao:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">525</ao:offset>
+    <ao:range rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">535</ao:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bioinformatics.ua.pt/slito/T66_N900eca653de048bc9171e4bd99bdef09">
+    <ao:onSourceDocument rdf:resource="http://bioinformatics.ua.pt/slito/test_files/brat_sample"/>
+    <ao:context rdf:resource="http://bioinformatics.ua.pt/slito/context_T66_N900eca653de048bc9171e4bd99bdef09"/>
+    <rdf:type rdf:resource="http://purl.org/ao/Annotation"/>
+    <ao:body>Gene</ao:body>
+  </rdf:Description>
+</rdf:RDF>
