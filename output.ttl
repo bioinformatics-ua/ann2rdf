@@ -1,6 +1,6 @@
 @prefix ao: <http://purl.org/ao/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix ns1: <http://purl.org/> .
+@prefix ns1: <http://www.bootstrep.eu/ontology/GRO#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -8,1051 +8,2260 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-slito:E10_N0fc82fc3bbf14ab68827cd12b9a26111 a ao:Annotation ;
-    slito:Theme slito:T12_N0fc82fc3bbf14ab68827cd12b9a26111 ;
-    slito:trigger2 slito:T10_N0fc82fc3bbf14ab68827cd12b9a26111 ;
+slito:E11_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Cause slito:T33_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Site slito:T70_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Theme slito:T34_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T69_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:E11_N6a924e9969d34dc483684318bc248903 a ao:Annotation ;
-    slito:Site slito:T70_N6a924e9969d34dc483684318bc248903 ;
-    slito:Theme slito:T34_N6a924e9969d34dc483684318bc248903 ;
-    slito:trigger2 slito:T69_N6a924e9969d34dc483684318bc248903 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> ;
-    ns1:cause slito:T33_N6a924e9969d34dc483684318bc248903 .
-
-slito:E12_N87126a09bba44c149cb2c1052e56480a a ao:Annotation ;
-    slito:Instrument slito:T21_N87126a09bba44c149cb2c1052e56480a,
-        slito:T70_N87126a09bba44c149cb2c1052e56480a ;
-    slito:trigger2 slito:T71_N87126a09bba44c149cb2c1052e56480a ;
+slito:E12_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Instrument slito:T21_Nc3748ed2e73b4727ac3d2db5e01acf9c,
+        slito:T70_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T71_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:E13_N12c77369c8ea42ca91b0dc0d0b0599c4 a ao:Annotation ;
-    slito:Theme slito:T36_N12c77369c8ea42ca91b0dc0d0b0599c4 ;
-    slito:trigger2 slito:T72_N12c77369c8ea42ca91b0dc0d0b0599c4 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> ;
-    ns1:cause slito:T35_N12c77369c8ea42ca91b0dc0d0b0599c4 .
-
-slito:E14_N08ffdb0b63c94a089f1a2cf4d5bed936 a ao:Annotation ;
-    slito:Theme slito:T15_N08ffdb0b63c94a089f1a2cf4d5bed936 ;
-    slito:trigger2 slito:T14_N08ffdb0b63c94a089f1a2cf4d5bed936 ;
+slito:E13_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Cause slito:T35_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Theme slito:T36_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T72_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:E15_Nedb3b51dca8b412ab22bc9c4cf24ae7c a ao:Annotation ;
-    slito:Site slito:T74_Nedb3b51dca8b412ab22bc9c4cf24ae7c ;
-    slito:Theme slito:T43_Nedb3b51dca8b412ab22bc9c4cf24ae7c ;
-    slito:trigger2 slito:T73_Nedb3b51dca8b412ab22bc9c4cf24ae7c ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> ;
-    ns1:cause slito:T40_Nedb3b51dca8b412ab22bc9c4cf24ae7c .
-
-slito:E16_N11c16eaf053f48ba83a6f8cc17cee057 a ao:Annotation ;
-    slito:Theme slito:T41_N11c16eaf053f48ba83a6f8cc17cee057 ;
-    slito:trigger2 slito:T75_N11c16eaf053f48ba83a6f8cc17cee057 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> ;
-    ns1:cause slito:T40_N11c16eaf053f48ba83a6f8cc17cee057 .
-
-slito:E17_N0fe453cdd6594134afeef85a95c74544 a ao:Annotation ;
-    slito:Theme slito:T46_N0fe453cdd6594134afeef85a95c74544 ;
-    slito:trigger2 slito:T76_N0fe453cdd6594134afeef85a95c74544 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> ;
-    ns1:cause slito:E44_N0fe453cdd6594134afeef85a95c74544 .
-
-slito:E18_N1a1d5b67526d437784a3bc5e61eef1a2 a ao:Annotation ;
-    slito:Theme slito:T19_N1a1d5b67526d437784a3bc5e61eef1a2 ;
-    slito:trigger2 slito:T18_N1a1d5b67526d437784a3bc5e61eef1a2 ;
+slito:E15_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Cause slito:T40_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Site slito:T74_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Theme slito:T43_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T73_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:E19_N48ddc98a2fe34f3fbb7c0817e9256a83 a ao:Annotation ;
-    slito:Theme slito:E52_N48ddc98a2fe34f3fbb7c0817e9256a83 ;
-    slito:trigger2 slito:T77_N48ddc98a2fe34f3fbb7c0817e9256a83 ;
+slito:E16_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Cause slito:T40_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Theme slito:T41_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T75_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:E1_N3ba7d26a66694ae8a31950e514627832 a ao:Annotation ;
-    slito:Theme slito:T3_N3ba7d26a66694ae8a31950e514627832 ;
-    slito:trigger2 slito:T1_N3ba7d26a66694ae8a31950e514627832 ;
+slito:E17_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Cause slito:E44_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Theme slito:T46_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T76_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:E20_N94dffcdabb274d1997970198dca42a2e a ao:Annotation ;
-    slito:Theme slito:E19_N94dffcdabb274d1997970198dca42a2e ;
-    slito:trigger2 slito:T78_N94dffcdabb274d1997970198dca42a2e ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> ;
-    ns1:cause slito:T56_N94dffcdabb274d1997970198dca42a2e .
-
-slito:E21_N61d080b440ce4520bca573bbdd061381 a ao:Annotation ;
-    slito:Theme slito:T58_N61d080b440ce4520bca573bbdd061381 ;
-    slito:trigger2 slito:T79_N61d080b440ce4520bca573bbdd061381 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> ;
-    ns1:cause slito:E22_N61d080b440ce4520bca573bbdd061381 .
-
-slito:E22_N5890d0a4e4bb4d46be503841662b9a18 a ao:Annotation ;
-    slito:Theme slito:E61_N5890d0a4e4bb4d46be503841662b9a18 ;
-    slito:trigger2 slito:T60_N5890d0a4e4bb4d46be503841662b9a18 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> ;
-    ns1:cause slito:T57_N5890d0a4e4bb4d46be503841662b9a18 .
-
-slito:E23_N8bd3d3e9430f44aca58beda6f1ed70c4 a ao:Annotation ;
-    slito:Instrument slito:T63_N8bd3d3e9430f44aca58beda6f1ed70c4 ;
-    slito:Theme slito:T1004_N8bd3d3e9430f44aca58beda6f1ed70c4 ;
-    slito:trigger2 slito:T80_N8bd3d3e9430f44aca58beda6f1ed70c4 ;
+slito:E20_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Cause slito:T56_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Theme slito:E19_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T78_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:E24_Nd4a6dda5263d49aa8c7d5ca52e3832c0 a ao:Annotation ;
-    slito:Theme slito:E64_Nd4a6dda5263d49aa8c7d5ca52e3832c0 ;
-    slito:trigger2 slito:T81_Nd4a6dda5263d49aa8c7d5ca52e3832c0 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> ;
-    ns1:cause slito:E23_Nd4a6dda5263d49aa8c7d5ca52e3832c0 .
-
-slito:E2_N64cff894c723449d9af9f09454c46ac6 a ao:Annotation ;
-    slito:Theme slito:E1_N64cff894c723449d9af9f09454c46ac6 ;
-    slito:trigger2 slito:T11_N64cff894c723449d9af9f09454c46ac6 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> ;
-    ns1:cause slito:T2_N64cff894c723449d9af9f09454c46ac6 .
-
-slito:E30_Ne50488b200aa45549356e77c52e232f5 a ao:Annotation ;
-    slito:Theme slito:T31_Ne50488b200aa45549356e77c52e232f5 ;
-    slito:trigger2 slito:T30_Ne50488b200aa45549356e77c52e232f5 ;
+slito:E21_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Cause slito:E22_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Theme slito:T58_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T79_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:E3_N7038530a7b6043028c3febd4afd38300 a ao:Annotation ;
-    slito:Instrument slito:T5_N7038530a7b6043028c3febd4afd38300 ;
-    slito:trigger2 slito:T22_N7038530a7b6043028c3febd4afd38300 ;
+slito:E24_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Cause slito:E23_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Theme slito:E64_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T81_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:E44_N2b273af493414b88955de6079d2e6efd a ao:Annotation ;
-    slito:Instrument slito:T45_N2b273af493414b88955de6079d2e6efd ;
-    slito:trigger2 slito:T44_N2b273af493414b88955de6079d2e6efd ;
+slito:E2_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Cause slito:T2_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Theme slito:E1_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T11_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:E4_N2ba6d4b962dc4cbb854566889053aa9a a ao:Annotation ;
-    slito:Theme slito:E10_N2ba6d4b962dc4cbb854566889053aa9a ;
-    slito:trigger2 slito:T32_N2ba6d4b962dc4cbb854566889053aa9a ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> ;
-    ns1:cause slito:T9_N2ba6d4b962dc4cbb854566889053aa9a .
-
-slito:E52_N248c86a34b3a47c792b8c89406735bf6 a ao:Annotation ;
-    slito:Theme slito:T53_N248c86a34b3a47c792b8c89406735bf6 ;
-    slito:trigger2 slito:T52_N248c86a34b3a47c792b8c89406735bf6 ;
+slito:E30_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Theme slito:T31_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T30_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:E5_Nb1f821d05a9341bdacaea753748442f6 a ao:Annotation ;
-    slito:Theme slito:E14_Nb1f821d05a9341bdacaea753748442f6 ;
-    slito:trigger2 slito:T54_Nb1f821d05a9341bdacaea753748442f6 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> ;
-    ns1:cause slito:T13_Nb1f821d05a9341bdacaea753748442f6 .
-
-slito:E61_Nf697f380ebce44debe8e6f32385f3f82 a ao:Annotation ;
-    slito:Theme slito:T62_Nf697f380ebce44debe8e6f32385f3f82 ;
-    slito:trigger2 slito:T61_Nf697f380ebce44debe8e6f32385f3f82 ;
+slito:E3_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Instrument slito:T5_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T22_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:E64_Na7a58f5d214a4b13990146d674d59b1d a ao:Annotation ;
-    slito:Theme slito:T66_Na7a58f5d214a4b13990146d674d59b1d ;
-    slito:trigger2 slito:T64_Na7a58f5d214a4b13990146d674d59b1d ;
+slito:E4_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Cause slito:T9_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Theme slito:E10_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T32_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:E6_N4460de730f9f4a31bf4febc032e49164 a ao:Annotation ;
-    slito:Theme slito:E18_N4460de730f9f4a31bf4febc032e49164 ;
-    slito:trigger2 slito:T55_N4460de730f9f4a31bf4febc032e49164 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> ;
-    ns1:cause slito:T17_N4460de730f9f4a31bf4febc032e49164 .
-
-slito:E7_N2d373f91b80947969d0c1da651524248 a ao:Annotation ;
-    slito:Instrument slito:T23_N2d373f91b80947969d0c1da651524248 ;
-    slito:Theme slito:T20_N2d373f91b80947969d0c1da651524248 ;
-    slito:trigger2 slito:T65_N2d373f91b80947969d0c1da651524248 ;
+slito:E5_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Cause slito:T13_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Theme slito:E14_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T54_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:E8_N1db9f168939b40c99cad07c7ff15e206 a ao:Annotation ;
-    slito:Instrument slito:T26_N1db9f168939b40c99cad07c7ff15e206 ;
-    slito:Theme slito:T27_N1db9f168939b40c99cad07c7ff15e206 ;
-    slito:trigger2 slito:T67_N1db9f168939b40c99cad07c7ff15e206 ;
+slito:E6_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Cause slito:T17_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Theme slito:E18_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T55_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:E9_Nfa2ba74ae7764fdc9790ed259edf7092 a ao:Annotation ;
-    slito:Theme slito:T27_Nfa2ba74ae7764fdc9790ed259edf7092 ;
-    slito:trigger2 slito:T68_Nfa2ba74ae7764fdc9790ed259edf7092 ;
+slito:E7_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Instrument slito:T23_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Theme slito:T20_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T65_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:R1_N931cc61521fe420e9dabc674b39769c0 a ao:Annotation ;
-    slito:Arg1 slito:T38_N931cc61521fe420e9dabc674b39769c0 ;
-    slito:Arg2 slito:T39_N931cc61521fe420e9dabc674b39769c0 ;
-    ao:body "frag" ;
+slito:E8_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Instrument slito:T26_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Theme slito:T27_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T67_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:R1_Nab9da1dd94034c1cb26ef3621a7d4838 a ao:Annotation ;
+slito:E9_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Theme slito:T27_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T68_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:R10_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
     ao:body "Interacts" ;
     ao:onSourceDocument slito:PMID3429544 ;
-    dc:related slito:T1_Nab9da1dd94034c1cb26ef3621a7d4838,
-        slito:T2_Nab9da1dd94034c1cb26ef3621a7d4838 .
+    dc:related slito:T41_Nab4823c044e74716a28add4208c5bd83,
+        slito:T42_Nab4823c044e74716a28add4208c5bd83 .
 
-slito:R2_N2be99446937e44879563144b99f76fc9 a ao:Annotation ;
-    slito:Arg1 slito:T37_N2be99446937e44879563144b99f76fc9 ;
-    slito:Arg2 slito:T39_N2be99446937e44879563144b99f76fc9 ;
+slito:R11_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Interacts" ;
+    ao:onSourceDocument slito:PMID3429544 ;
+    dc:related slito:T41_Nab4823c044e74716a28add4208c5bd83,
+        slito:T43_Nab4823c044e74716a28add4208c5bd83 .
+
+slito:R12_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Interacts" ;
+    ao:onSourceDocument slito:PMID3429544 ;
+    dc:related slito:T41_Nab4823c044e74716a28add4208c5bd83,
+        slito:T45_Nab4823c044e74716a28add4208c5bd83 .
+
+slito:R13_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Interacts" ;
+    ao:onSourceDocument slito:PMID3429544 ;
+    dc:related slito:T42_Nab4823c044e74716a28add4208c5bd83,
+        slito:T43_Nab4823c044e74716a28add4208c5bd83 .
+
+slito:R14_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Interacts" ;
+    ao:onSourceDocument slito:PMID3429544 ;
+    dc:related slito:T42_Nab4823c044e74716a28add4208c5bd83,
+        slito:T45_Nab4823c044e74716a28add4208c5bd83 .
+
+slito:R15_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Interacts" ;
+    ao:onSourceDocument slito:PMID3429544 ;
+    dc:related slito:T43_Nab4823c044e74716a28add4208c5bd83,
+        slito:T45_Nab4823c044e74716a28add4208c5bd83 .
+
+slito:R16_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Interacts" ;
+    ao:onSourceDocument slito:PMID3429544 ;
+    dc:related slito:T48_Nab4823c044e74716a28add4208c5bd83,
+        slito:T50_Nab4823c044e74716a28add4208c5bd83 .
+
+slito:R17_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Interacts" ;
+    ao:onSourceDocument slito:PMID3429544 ;
+    dc:related slito:T48_Nab4823c044e74716a28add4208c5bd83,
+        slito:T51_Nab4823c044e74716a28add4208c5bd83 .
+
+slito:R18_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Interacts" ;
+    ao:onSourceDocument slito:PMID3429544 ;
+    dc:related slito:T48_Nab4823c044e74716a28add4208c5bd83,
+        slito:T52_Nab4823c044e74716a28add4208c5bd83 .
+
+slito:R19_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Interacts" ;
+    ao:onSourceDocument slito:PMID3429544 ;
+    dc:related slito:T50_Nab4823c044e74716a28add4208c5bd83,
+        slito:T51_Nab4823c044e74716a28add4208c5bd83 .
+
+slito:R1_N833a5290d6db4ffb8c16860002b0d7de a ao:Annotation ;
+    ao:body "Interacts" ;
+    ao:onSourceDocument slito:PMID3429544 ;
+    dc:related slito:T1_N833a5290d6db4ffb8c16860002b0d7de,
+        slito:T2_N833a5290d6db4ffb8c16860002b0d7de .
+
+slito:R1_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Interacts" ;
+    ao:onSourceDocument slito:PMID3429544 ;
+    dc:related slito:T1_Nab4823c044e74716a28add4208c5bd83,
+        slito:T2_Nab4823c044e74716a28add4208c5bd83 .
+
+slito:R1_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
     ao:body "frag" ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> ;
+    ns1:partOf slito:T38_Nc3748ed2e73b4727ac3d2db5e01acf9c,
+        slito:T39_Nc3748ed2e73b4727ac3d2db5e01acf9c .
 
-slito:T1000_N49a6e05887d54c05a7d6cd702f9d7b74 a ao:Annotation ;
-    ao:body "Organism" ;
-    ao:context slito:context_T1000_N49a6e05887d54c05a7d6cd702f9d7b74 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+slito:R20_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Interacts" ;
+    ao:onSourceDocument slito:PMID3429544 ;
+    dc:related slito:T50_Nab4823c044e74716a28add4208c5bd83,
+        slito:T52_Nab4823c044e74716a28add4208c5bd83 .
 
-slito:T1001_N4382dcdf8d0e4ee5bd9e4dcec91fc349 a ao:Annotation ;
-    ao:body "Organism" ;
-    ao:context slito:context_T1001_N4382dcdf8d0e4ee5bd9e4dcec91fc349 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+slito:R21_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Interacts" ;
+    ao:onSourceDocument slito:PMID3429544 ;
+    dc:related slito:T51_Nab4823c044e74716a28add4208c5bd83,
+        slito:T52_Nab4823c044e74716a28add4208c5bd83 .
 
-slito:T1002_N8dd38ff68b9b4637a54e94288d5744d1 a ao:Annotation ;
-    ao:body "Organism" ;
-    ao:context slito:context_T1002_N8dd38ff68b9b4637a54e94288d5744d1 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+slito:R22_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Interacts" ;
+    ao:onSourceDocument slito:PMID3429544 ;
+    dc:related slito:T55_Nab4823c044e74716a28add4208c5bd83,
+        slito:T56_Nab4823c044e74716a28add4208c5bd83 .
 
-slito:T1003_N32612f0b87a24d4d91b9fc7411416694 a ao:Annotation ;
-    ao:body "Organism" ;
-    ao:context slito:context_T1003_N32612f0b87a24d4d91b9fc7411416694 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+slito:R23_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Interacts" ;
+    ao:onSourceDocument slito:PMID3429544 ;
+    dc:related slito:T58_Nab4823c044e74716a28add4208c5bd83,
+        slito:T59_Nab4823c044e74716a28add4208c5bd83 .
 
-slito:T1004_N87050e82476a48089214d7dc5aae2ff0 a ao:Annotation ;
-    ao:body "Organism" ;
-    ao:context slito:context_T1004_N87050e82476a48089214d7dc5aae2ff0 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+slito:R24_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "No_interaction" ;
+    ao:onSourceDocument slito:PMID3429544 ;
+    dc:related slito:T11_Nab4823c044e74716a28add4208c5bd83,
+        slito:T9_Nab4823c044e74716a28add4208c5bd83 .
 
-slito:T10_N3d00755b6cd647e5839e98382a77284c a ao:Annotation ;
-    ao:body "Gene_expression" ;
-    ao:context slito:context_T10_N3d00755b6cd647e5839e98382a77284c ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T11_N3ba4a03f1e254b7eb64ada2c6cf7b2dc a ao:Annotation ;
+slito:R2_Na9bb301fe52e40918b7aca0c0d53448e a ao:Annotation ;
+    slito:Cause slito:G2_Na9bb301fe52e40918b7aca0c0d53448e ;
+    slito:Theme slito:R1_Na9bb301fe52e40918b7aca0c0d53448e ;
+    slito:Trigger slito:T2_Na9bb301fe52e40918b7aca0c0d53448e ;
     ao:body "Positive_regulation" ;
-    ao:context slito:context_T11_N3ba4a03f1e254b7eb64ada2c6cf7b2dc ;
+    ao:onSourceDocument slito:PMID22187158 .
+
+slito:R2_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Interacts" ;
+    ao:onSourceDocument slito:PMID3429544 ;
+    dc:related slito:T4_Nab4823c044e74716a28add4208c5bd83,
+        slito:T5_Nab4823c044e74716a28add4208c5bd83 .
+
+slito:R2_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "frag" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> ;
+    ns1:partOf slito:T37_Nc3748ed2e73b4727ac3d2db5e01acf9c,
+        slito:T39_Nc3748ed2e73b4727ac3d2db5e01acf9c .
+
+slito:R3_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Interacts" ;
+    ao:onSourceDocument slito:PMID3429544 ;
+    dc:related slito:T26_Nab4823c044e74716a28add4208c5bd83,
+        slito:T27_Nab4823c044e74716a28add4208c5bd83 .
+
+slito:R4_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Interacts" ;
+    ao:onSourceDocument slito:PMID3429544 ;
+    dc:related slito:T35_Nab4823c044e74716a28add4208c5bd83,
+        slito:T39_Nab4823c044e74716a28add4208c5bd83 .
+
+slito:R5_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Interacts" ;
+    ao:onSourceDocument slito:PMID3429544 ;
+    dc:related slito:T35_Nab4823c044e74716a28add4208c5bd83,
+        slito:T37_Nab4823c044e74716a28add4208c5bd83 .
+
+slito:R6_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Interacts" ;
+    ao:onSourceDocument slito:PMID3429544 ;
+    dc:related slito:T39_Nab4823c044e74716a28add4208c5bd83,
+        slito:T41_Nab4823c044e74716a28add4208c5bd83 .
+
+slito:R7_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Interacts" ;
+    ao:onSourceDocument slito:PMID3429544 ;
+    dc:related slito:T39_Nab4823c044e74716a28add4208c5bd83,
+        slito:T42_Nab4823c044e74716a28add4208c5bd83 .
+
+slito:R8_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Interacts" ;
+    ao:onSourceDocument slito:PMID3429544 ;
+    dc:related slito:T39_Nab4823c044e74716a28add4208c5bd83,
+        slito:T43_Nab4823c044e74716a28add4208c5bd83 .
+
+slito:R9_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Interacts" ;
+    ao:onSourceDocument slito:PMID3429544 ;
+    dc:related slito:T39_Nab4823c044e74716a28add4208c5bd83,
+        slito:T45_Nab4823c044e74716a28add4208c5bd83 .
+
+slito:T1000_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Organism" ;
+    ao:context slito:context_T1000_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T12_N9afed17b1c484b76b76596473fc1a219 a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T12_N9afed17b1c484b76b76596473fc1a219 ;
+slito:T1001_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Organism" ;
+    ao:context slito:context_T1001_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "NCBI:10116" ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T13_N4b6d3f6ea9a34dbda72d3b8e3d2243ba a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T13_N4b6d3f6ea9a34dbda72d3b8e3d2243ba ;
+slito:T1002_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Organism" ;
+    ao:context slito:context_T1002_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "NCBI:9606" ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T14_N03dbd260a76c4c3e960f3a5e2a078b9c a ao:Annotation ;
-    ao:body "Gene_expression" ;
-    ao:context slito:context_T14_N03dbd260a76c4c3e960f3a5e2a078b9c ;
+slito:T1003_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Organism" ;
+    ao:context slito:context_T1003_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "NCBI:9606" ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T15_N138dc30236a74e02bc17c7626be07f10 a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T15_N138dc30236a74e02bc17c7626be07f10 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T16_N2334d808f18e43ccae0643ac233dbc65 a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T16_N2334d808f18e43ccae0643ac233dbc65 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T17_N043dea85a3284958b4dd2666da878d70 a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T17_N043dea85a3284958b4dd2666da878d70 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T18_N3940e9219ce1499cadf0fd622dd69ee2 a ao:Annotation ;
-    ao:body "Gene_expression" ;
-    ao:context slito:context_T18_N3940e9219ce1499cadf0fd622dd69ee2 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T19_N96e16c31e47c45a996b0b48d0078349d a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T19_N96e16c31e47c45a996b0b48d0078349d ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T1_N7305e3896d9e447d86c14ed467d488a1 a ao:Annotation ;
-    ao:body "Gene_expression" ;
-    ao:context slito:context_T1_N7305e3896d9e447d86c14ed467d488a1 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T1_Na9b9c173d8454d7a8fda2f7702b03b5e a ao:Annotation ;
-    ao:body "http://purl.bioontology.org/ontology/SNOMEDCT/4421005" ;
-    ao:context slito:context_T1_Na9b9c173d8454d7a8fda2f7702b03b5e ;
+slito:T10_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T10_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "GO:0009058",
+        "NCI:C17702",
+        "NCIm:C0220781",
+        "SNOMEDCT:11798007" ;
     ao:onSourceDocument slito:PMID3429544 .
 
-slito:T20_N9905185c8e434d889bd468fe499ddc76 a ao:Annotation ;
-    ao:body "http://purl.bioontology.org/ontology/SNOMEDCT/4421005" ;
-    ao:context slito:context_T20_N9905185c8e434d889bd468fe499ddc76 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T21_Na13bb8426fcf454a968766434473efba a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T21_Na13bb8426fcf454a968766434473efba ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T22_N2e9c6129b3a040ec8139f756ff723946 a ao:Annotation ;
-    ao:body "Planned_process" ;
-    ao:context slito:context_T22_N2e9c6129b3a040ec8139f756ff723946 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T23_Nb24363595a8b4d5db947bd94e7f02702 a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T23_Nb24363595a8b4d5db947bd94e7f02702 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T24_N343f6dd8850048cf92c3ae0cfd38babe a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T24_N343f6dd8850048cf92c3ae0cfd38babe ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T25_N5c6220e461b540f385448aeb61ade623 a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T25_N5c6220e461b540f385448aeb61ade623 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T26_Nb3ce392d8eb34d97a4170ad34847e8f3 a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T26_Nb3ce392d8eb34d97a4170ad34847e8f3 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T27_N13961cd42cfe424caf9caa4a3a03e05a a ao:Annotation ;
-    ao:body "http://purl.bioontology.org/ontology/SNOMEDCT/4421005" ;
-    ao:context slito:context_T27_N13961cd42cfe424caf9caa4a3a03e05a ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T28_Naee6149ed6954906af66c1dd67b7aca0 a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T28_Naee6149ed6954906af66c1dd67b7aca0 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T2_N0141cb7d15d94b6e8140eba786497afe a ao:Annotation ;
-    ao:body "http://purl.bioontology.org/ontology/SNOMEDCT/4421005" ;
-    ao:context slito:context_T2_N0141cb7d15d94b6e8140eba786497afe ;
+slito:T12_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T12_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "UNIPROT:O75616" ;
     ao:onSourceDocument slito:PMID3429544 .
 
-slito:T2_N4dc2a4d1611e4be2a1e970eca7d8184d a ao:Annotation ;
+slito:T13_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T13_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T14_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T14_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T15_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T15_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T16_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T16_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T16_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
     ao:body "Gene" ;
-    ao:context slito:context_T2_N4dc2a4d1611e4be2a1e970eca7d8184d ;
+    ao:context slito:context_T16_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T30_Nce8b19a6a7644f0da75d6a8ee9c19670 a ao:Annotation ;
-    ao:body "Cell_proliferation" ;
-    ao:context slito:context_T30_Nce8b19a6a7644f0da75d6a8ee9c19670 ;
+slito:T17_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T17_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "UNIPROT:O75616" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T18_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T18_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "UNIPROT:Q9H492" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T19_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T19_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "UNIPROT:Q9H492" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T20_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T20_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T21_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T21_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T22_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T22_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T23_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T23_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "CHEBI:35222",
+        "GO:0006914",
+        "NCI:C71427",
+        "NCIm:C0004391" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T24_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T24_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "CHEBI:26523",
+        "GO:0005854",
+        "NCIm:C1166931",
+        "UNIPROT:P08922" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T24_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T24_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T31_Nc31f15b90d4745b6a388a0033b53feee a ao:Annotation ;
+slito:T25_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T25_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "NCIm:C0021469",
+        "SNOMEDCT:61511001" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T25_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T25_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "EC:3.1.27.5",
+        "UNIPROT:P07998",
+        "UNIPROT:P10153",
+        "UNIPROT:P61221" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T28_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T28_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "CHEBI:35222" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T28_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T28_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T29_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T29_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T30_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T30_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T31_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T31_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T32_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T32_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T33_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T33_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "NCIm:C0021469",
+        "SNOMEDCT:61511001" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T34_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T34_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T36_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T36_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T38_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T38_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T3_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T3_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T40_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T40_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T42_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
     ao:body "http://purl.bioontology.org/ontology/SNOMEDCT/4421005" ;
-    ao:context slito:context_T31_Nc31f15b90d4745b6a388a0033b53feee ;
+    ao:context slito:context_T42_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "FMA:Normal_cell",
+        "FMA:Pigmented_layer_of_retina",
+        "FMA:Set_of_cells",
+        "GO:0005623",
+        "NCI:C12508",
+        "NCI:C33470",
+        "NCIm:C0007634",
+        "NCIm:C0035322",
+        "NCIm:C3282337",
+        "SNOMEDCT:41275009",
+        "SNOMEDCT:4421005" ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T32_Nfe9d295a0baf4cc5b5ed434c7ab0f24b a ao:Annotation ;
-    ao:body "Regulation" ;
-    ao:context slito:context_T32_Nfe9d295a0baf4cc5b5ed434c7ab0f24b ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+slito:T44_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T44_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
 
-slito:T33_Nd83535da55b54120afef9b633d7d81cd a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T33_Nd83535da55b54120afef9b633d7d81cd ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+slito:T46_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T46_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "GO:0006468",
+        "GO:0016310",
+        "NCI:C16983",
+        "NCI:C18496",
+        "NCIm:C0031715",
+        "NCIm:C1158886",
+        "SNOMEDCT:363262008" ;
+    ao:onSourceDocument slito:PMID3429544 .
 
-slito:T34_N78544ec8eb834363affe571291716154 a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T34_N78544ec8eb834363affe571291716154 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+slito:T47_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T47_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "NCIm:C0041904" ;
+    ao:onSourceDocument slito:PMID3429544 .
 
-slito:T35_N7e7e68f082ca40c88aec181da2a95772 a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T35_N7e7e68f082ca40c88aec181da2a95772 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T36_N1692af89b6f04ebab25f0f135e5d198a a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T36_N1692af89b6f04ebab25f0f135e5d198a ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T37_N0a84fa077b27448b8f7a3e99163e80b1 a ao:Annotation ;
-    ao:body "Tissue" ;
-    ao:context slito:context_T37_N0a84fa077b27448b8f7a3e99163e80b1 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T38_N7ec14f82d4d34ed3857d02c5fc4fadae a ao:Annotation ;
-    ao:body "Tissue" ;
-    ao:context slito:context_T38_N7ec14f82d4d34ed3857d02c5fc4fadae ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T39_N49b8d9a6225b4a899448b019e1c32589 a ao:Annotation ;
-    ao:body "Tissue" ;
-    ao:context slito:context_T39_N49b8d9a6225b4a899448b019e1c32589 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T3_N5ffbfa1539f84226af298ed54cae0675 a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T3_N5ffbfa1539f84226af298ed54cae0675 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T40_Na9ec10d83ebf403093b0f6beeea36fbe a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T40_Na9ec10d83ebf403093b0f6beeea36fbe ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T41_N4057ca0938d3460997df904c6c28c802 a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T41_N4057ca0938d3460997df904c6c28c802 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T42_Necd6d97c52c04763af2e3322b58e4fb9 a ao:Annotation ;
+slito:T47_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
     ao:body "http://purl.bioontology.org/ontology/SNOMEDCT/4421005" ;
-    ao:context slito:context_T42_Necd6d97c52c04763af2e3322b58e4fb9 ;
+    ao:context slito:context_T47_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "FMA:Normal_cell",
+        "FMA:Pigmented_layer_of_retina",
+        "FMA:Set_of_cells",
+        "GO:0005623",
+        "NCI:C12508",
+        "NCI:C33470",
+        "NCIm:C0007634",
+        "NCIm:C0035322",
+        "NCIm:C1269647",
+        "SNOMEDCT:362837007",
+        "SNOMEDCT:41275009",
+        "SNOMEDCT:4421005" ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T43_Ne152c05e1aea4c768c16dc22e29395c7 a ao:Annotation ;
+slito:T48_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
     ao:body "Gene" ;
-    ao:context slito:context_T43_Ne152c05e1aea4c768c16dc22e29395c7 ;
+    ao:context slito:context_T48_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "CHEBI:5931",
+        "UNIPROT:P01308" ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T44_N14715c20350c4ba09e2b32e99fd33ab8 a ao:Annotation ;
-    ao:body "Planned_process" ;
-    ao:context slito:context_T44_N14715c20350c4ba09e2b32e99fd33ab8 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+slito:T49_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T49_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
 
-slito:T45_N54e143c21033470b9320177566103c92 a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T45_N54e143c21033470b9320177566103c92 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T46_Ndb2c3ed618aa4acdbee944b47d4f9acd a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T46_Ndb2c3ed618aa4acdbee944b47d4f9acd ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T47_Nf8da34e167bc45438421e04f82442376 a ao:Annotation ;
+slito:T49_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
     ao:body "http://purl.bioontology.org/ontology/SNOMEDCT/4421005" ;
-    ao:context slito:context_T47_Nf8da34e167bc45438421e04f82442376 ;
+    ao:context slito:context_T49_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "FMA:Normal_cell",
+        "FMA:Pigmented_layer_of_retina",
+        "FMA:Set_of_cells",
+        "GO:0005623",
+        "NCI:C12508",
+        "NCI:C33470",
+        "NCIm:C0007634",
+        "NCIm:C0035322",
+        "NCIm:C1269647",
+        "SNOMEDCT:362837007",
+        "SNOMEDCT:41275009",
+        "SNOMEDCT:4421005" ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T48_N04852a027ef843068e0850e7b877bb66 a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T48_N04852a027ef843068e0850e7b877bb66 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T49_Nb8d31c7f6ca34804b2a58600a99343d9 a ao:Annotation ;
-    ao:body "http://purl.bioontology.org/ontology/SNOMEDCT/4421005" ;
-    ao:context slito:context_T49_Nb8d31c7f6ca34804b2a58600a99343d9 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T4_N700631a2ea404617803fa97c5dfcbb46 a ao:Annotation ;
+slito:T4_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
     ao:body "Multi-tissue_structure" ;
-    ao:context slito:context_T4_N700631a2ea404617803fa97c5dfcbb46 ;
+    ao:context slito:context_T4_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "FMA:Retina",
+        "NCI:C87176",
+        "NCIm:C0035298",
+        "NCIm:C1278894",
+        "SNOMEDCT:181171005",
+        "SNOMEDCT:5665001" ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T50_N9e1e3915d76c48a8836ddbf33e9a110d a ao:Annotation ;
+slito:T50_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
     ao:body "Gene" ;
-    ao:context slito:context_T50_N9e1e3915d76c48a8836ddbf33e9a110d ;
+    ao:context slito:context_T50_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T52_N4d6d6208a0a641a7b618d211540a689f a ao:Annotation ;
-    ao:body "Cell_proliferation" ;
-    ao:context slito:context_T52_N4d6d6208a0a641a7b618d211540a689f ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+slito:T53_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T53_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
 
-slito:T53_N3ac223d6658747b28e20b008843ce2cc a ao:Annotation ;
+slito:T54_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T54_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T57_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T57_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T59_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
     ao:body "http://purl.bioontology.org/ontology/SNOMEDCT/4421005" ;
-    ao:context slito:context_T53_N3ac223d6658747b28e20b008843ce2cc ;
+    ao:context slito:context_T59_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "FMA:Normal_cell",
+        "FMA:Pigmented_layer_of_retina",
+        "FMA:Set_of_cells",
+        "GO:0005623",
+        "NCI:C12508",
+        "NCI:C33470",
+        "NCIm:C0007634",
+        "NCIm:C0035322",
+        "NCIm:C3282337",
+        "SNOMEDCT:41275009",
+        "SNOMEDCT:4421005" ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T54_N1b07640afa5a42778a4b230152e1af7f a ao:Annotation ;
-    ao:body "Regulation" ;
-    ao:context slito:context_T54_N1b07640afa5a42778a4b230152e1af7f ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+slito:T60_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T60_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
 
-slito:T55_N36748bb9850c484ba08f52238f921827 a ao:Annotation ;
-    ao:body "Regulation" ;
-    ao:context slito:context_T55_N36748bb9850c484ba08f52238f921827 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+slito:T61_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T61_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "NCIm:C0021469",
+        "SNOMEDCT:61511001" ;
+    ao:onSourceDocument slito:PMID3429544 .
 
-slito:T56_Na6a9d6f679404147896452c89d0a9570 a ao:Annotation ;
+slito:T6_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T6_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T6_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
     ao:body "Gene" ;
-    ao:context slito:context_T56_Na6a9d6f679404147896452c89d0a9570 ;
+    ao:context slito:context_T6_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "CHEBI:5931",
+        "UNIPROT:P01308" ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T57_N63d6801d3e9442d89a88f6a288ee161b a ao:Annotation ;
+slito:T7_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Active_word" ;
+    ao:context slito:context_T7_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "NCIm:C0021469",
+        "SNOMEDCT:61511001" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T7_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
     ao:body "Gene" ;
-    ao:context slito:context_T57_N63d6801d3e9442d89a88f6a288ee161b ;
+    ao:context slito:context_T7_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "FMA:Blood_vessel_viewed_macroscopically",
+        "FMA:Endothelium",
+        "GO:0005172",
+        "GO:0040007",
+        "ICD10CM:D49",
+        "NCI:C12481",
+        "NCI:C12679",
+        "NCI:C16648",
+        "NCI:C18825",
+        "NCIm:C0005847",
+        "NCIm:C0014257",
+        "NCIm:C0018270",
+        "NCIm:C1323364",
+        "NCIm:C1621966",
+        "NCIm:C1760030",
+        "SNOMEDCT:27168002",
+        "SNOMEDCT:59820001",
+        "UNIPROT:Q13829" ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T58_Ne6752814a042409f84f0c6fb68caa14f a ao:Annotation ;
+slito:T8_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T8_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "UNIPROT:O75616" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T8_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
     ao:body "Gene" ;
-    ao:context slito:context_T58_Ne6752814a042409f84f0c6fb68caa14f ;
+    ao:context slito:context_T8_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T59_Nd0d75f6426504de098ef874072203551 a ao:Annotation ;
-    ao:body "http://purl.bioontology.org/ontology/SNOMEDCT/4421005" ;
-    ao:context slito:context_T59_Nd0d75f6426504de098ef874072203551 ;
+slito:E10_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Theme slito:T12_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T10_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T5_N8e00251e03d242f485edb990ab5e26e9 a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T5_N8e00251e03d242f485edb990ab5e26e9 ;
+slito:E14_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Theme slito:T15_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T14_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T60_N73b0f3b238da432695fc02efd24897d5 a ao:Annotation ;
-    ao:body "Positive_regulation" ;
-    ao:context slito:context_T60_N73b0f3b238da432695fc02efd24897d5 ;
+slito:E18_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Theme slito:T19_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T18_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T61_N1710790c8a3843529cddd35cd8a506ce a ao:Annotation ;
-    ao:body "Transcription" ;
-    ao:context slito:context_T61_N1710790c8a3843529cddd35cd8a506ce ;
+slito:E19_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Theme slito:E52_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T77_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T62_Nf2a648e13b814760ac2836c25eea7375 a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T62_Nf2a648e13b814760ac2836c25eea7375 ;
+slito:E1_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Theme slito:T3_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T1_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T63_N7ce63d0a08d54166b4d7575cdb463c7b a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T63_N7ce63d0a08d54166b4d7575cdb463c7b ;
+slito:E22_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Cause slito:T57_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Theme slito:E61_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T60_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T64_N69b24570b9a0484f9ec0eaba06ad0c18 a ao:Annotation ;
+slito:E23_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Instrument slito:T63_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Theme slito:T1004_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T80_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:E44_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Instrument slito:T45_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T44_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:E52_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Theme slito:T53_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T52_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:E61_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Theme slito:T62_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T61_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:E64_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    slito:Theme slito:T66_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    slito:Trigger slito:T64_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:G0_Na9bb301fe52e40918b7aca0c0d53448e a ao:Annotation ;
+    ao:body "Gene_name" ;
+    ao:context slito:context_G0_Na9bb301fe52e40918b7aca0c0d53448e ;
+    ao:hasTopic "EC:2.3.1.108",
+        "EC:2.3.1.185",
+        "UNIPROT:P17735" ;
+    ao:onSourceDocument slito:PMID22187158 .
+
+slito:G1_Na9bb301fe52e40918b7aca0c0d53448e a ao:Annotation ;
+    ao:body "Gene_name" ;
+    ao:context slito:context_G1_Na9bb301fe52e40918b7aca0c0d53448e ;
+    ao:hasTopic "NCIm:C1851100",
+        "UNIPROT:Q99797",
+        "omim.org:135750" ;
+    ao:onSourceDocument slito:PMID22187158 .
+
+slito:G2_Na9bb301fe52e40918b7aca0c0d53448e a ao:Annotation ;
+    ao:body "Gene_name" ;
+    ao:context slito:context_G2_Na9bb301fe52e40918b7aca0c0d53448e ;
+    ao:hasTopic "UNIPROT:P21579",
+        "UNIPROT:Q04206",
+        "UNIPROT:Q15532",
+        "UNIPROT:Q9BQQ3" ;
+    ao:onSourceDocument slito:PMID22187158 .
+
+slito:R0_Na9bb301fe52e40918b7aca0c0d53448e a ao:Annotation ;
+    slito:Theme slito:G1_Na9bb301fe52e40918b7aca0c0d53448e ;
+    slito:Trigger slito:T1_Na9bb301fe52e40918b7aca0c0d53448e ;
     ao:body "Gene_expression" ;
-    ao:context slito:context_T64_N69b24570b9a0484f9ec0eaba06ad0c18 ;
+    ao:onSourceDocument slito:PMID22187158 .
+
+slito:R1_Na9bb301fe52e40918b7aca0c0d53448e a ao:Annotation ;
+    slito:Cause slito:G0_Na9bb301fe52e40918b7aca0c0d53448e ;
+    slito:Theme slito:R0_Na9bb301fe52e40918b7aca0c0d53448e ;
+    slito:Trigger slito:T0_Na9bb301fe52e40918b7aca0c0d53448e ;
+    ao:body "Positive_regulation" ;
+    ao:onSourceDocument slito:PMID22187158 .
+
+slito:T0_Na9bb301fe52e40918b7aca0c0d53448e a ao:Annotation ;
+    ao:body "Positive_regulation" ;
+    ao:context slito:context_T0_Na9bb301fe52e40918b7aca0c0d53448e ;
+    ao:onSourceDocument slito:PMID22187158 .
+
+slito:T1004_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Organism" ;
+    ao:context slito:context_T1004_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T65_Nd98689baa75d43f49d6198975f02af85 a ao:Annotation ;
-    ao:body "Planned_process" ;
-    ao:context slito:context_T65_Nd98689baa75d43f49d6198975f02af85 ;
+slito:T10_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene_expression" ;
+    ao:context slito:context_T10_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "GO:0010467",
+        "NCI:C16608",
+        "NCIm:C0017262",
+        "SNOMEDCT:89551006" ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T66_N900eca653de048bc9171e4bd99bdef09 a ao:Annotation ;
+slito:T11_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T11_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T11_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Positive_regulation" ;
+    ao:context slito:context_T11_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T12_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
     ao:body "Gene" ;
-    ao:context slito:context_T66_N900eca653de048bc9171e4bd99bdef09 ;
+    ao:context slito:context_T12_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T67_N0d2eecc1671d4a89a9099f682fcd47a9 a ao:Annotation ;
-    ao:body "Planned_process" ;
-    ao:context slito:context_T67_N0d2eecc1671d4a89a9099f682fcd47a9 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T68_N71be15bdbe81407ebb8307e3dab915aa a ao:Annotation ;
-    ao:body "Planned_process" ;
-    ao:context slito:context_T68_N71be15bdbe81407ebb8307e3dab915aa ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T69_N8d905b1bacad4cb0a817dd4a01f7c3fc a ao:Annotation ;
-    ao:body "Positive_regulation" ;
-    ao:context slito:context_T69_N8d905b1bacad4cb0a817dd4a01f7c3fc ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T6_N737fb8c4a35a4672981732808d1728df a ao:Annotation ;
+slito:T13_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
     ao:body "Gene" ;
-    ao:context slito:context_T6_N737fb8c4a35a4672981732808d1728df ;
+    ao:context slito:context_T13_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "CHEBI:5931",
+        "UNIPROT:P01308" ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T70_N98b35f72da504fe8af8a47374a50f8bb a ao:Annotation ;
-    ao:body "DNA_domain_or_region" ;
-    ao:context slito:context_T70_N98b35f72da504fe8af8a47374a50f8bb ;
+slito:T14_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene_expression" ;
+    ao:context slito:context_T14_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "GO:0010467",
+        "NCI:C16608",
+        "NCIm:C0017262",
+        "SNOMEDCT:89551006" ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T71_N794a023d1fb1470db688012b7addab56 a ao:Annotation ;
+slito:T15_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T15_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T17_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T17_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "CHEBI:5931",
+        "UNIPROT:P01308" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T18_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene_expression" ;
+    ao:context slito:context_T18_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "GO:0010467",
+        "NCI:C16608",
+        "NCIm:C0017262",
+        "SNOMEDCT:89551006" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T19_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T19_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T1_N833a5290d6db4ffb8c16860002b0d7de a ao:Annotation ;
+    ao:body "http://purl.bioontology.org/ontology/SNOMEDCT/4421005" ;
+    ao:context slito:context_T1_N833a5290d6db4ffb8c16860002b0d7de ;
+    ao:hasTopic "NCI:C20633",
+        "NCIm:C1704259" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T1_Na9bb301fe52e40918b7aca0c0d53448e a ao:Annotation ;
+    ao:body "Gene_expression" ;
+    ao:context slito:context_T1_Na9bb301fe52e40918b7aca0c0d53448e ;
+    ao:hasTopic "GO:0010467",
+        "NCI:C16608",
+        "NCIm:C0017262",
+        "SNOMEDCT:89551006" ;
+    ao:onSourceDocument slito:PMID22187158 .
+
+slito:T1_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "http://purl.bioontology.org/ontology/SNOMEDCT/4421005" ;
+    ao:context slito:context_T1_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "NCI:C20633",
+        "NCIm:C1704259" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T1_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene_expression" ;
+    ao:context slito:context_T1_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "GO:0010467",
+        "NCI:C16608",
+        "NCIm:C0017262",
+        "SNOMEDCT:89551006" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T20_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "http://purl.bioontology.org/ontology/SNOMEDCT/4421005" ;
+    ao:context slito:context_T20_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "CHEBI:15035",
+        "CHEBI:17898",
+        "CHEBI:45487",
+        "CHID:000116314",
+        "CHID:000472866",
+        "CHID:000514852",
+        "FMA:Normal_cell",
+        "FMA:Pigmented_layer_of_retina",
+        "FMA:Retina",
+        "FMA:Set_of_cells",
+        "GO:0005623",
+        "HMBD:HMDB01358",
+        "HMBD:HMDB06218",
+        "HMBD:HMDB06220",
+        "KEGC:C00376",
+        "NCI:C12508",
+        "NCI:C33470",
+        "NCI:C87176",
+        "NCIm:C0007634",
+        "NCIm:C0035298",
+        "NCIm:C0035322",
+        "NCIm:C3282337",
+        "PUBC:1070",
+        "PUBC:5381765",
+        "PUBC:638015",
+        "PUBS:11659982",
+        "PUBS:3136",
+        "PUBS:3666",
+        "PUBS:416402",
+        "SNOMEDCT:41275009",
+        "SNOMEDCT:4421005",
+        "SNOMEDCT:5665001" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T21_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T21_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "EC:1.13.12.5",
+        "EC:1.13.12.6",
+        "EC:1.13.12.7",
+        "EC:1.13.12.8" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T22_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
     ao:body "Planned_process" ;
-    ao:context slito:context_T71_N794a023d1fb1470db688012b7addab56 ;
+    ao:context slito:context_T22_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T72_N9a453b49454144ea92c5c2a79474c611 a ao:Annotation ;
+slito:T23_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T23_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "CHEBI:5931",
+        "UNIPROT:P01308" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T26_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T26_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "UNIPROT:O75616" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T26_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T26_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "CHEBI:5931",
+        "UNIPROT:P01308" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T27_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T27_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "CHEBI:17698",
+        "CHEBI:3605",
+        "CHID:000056757",
+        "CHID:000530438",
+        "DRUG:DB00446",
+        "KEGC:C00918",
+        "KEGC:C11726",
+        "KEGC:D00104",
+        "KEGC:D01072",
+        "KEGD:D00104",
+        "KEGD:D01072",
+        "NCIm:C1855179",
+        "PUBC:298",
+        "PUBS:13891",
+        "PUBS:4172",
+        "PUBS:7847172",
+        "PUBS:7848135",
+        "omim.org:115650" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T2_N833a5290d6db4ffb8c16860002b0d7de a ao:Annotation ;
+    ao:body "http://purl.bioontology.org/ontology/SNOMEDCT/4421005" ;
+    ao:context slito:context_T2_N833a5290d6db4ffb8c16860002b0d7de ;
+    ao:hasTopic "FMA:Mitochondrion",
+        "GO:0005739",
+        "NCI:C13258",
+        "NCIm:C0026237",
+        "SNOMEDCT:312239001" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T2_Na9bb301fe52e40918b7aca0c0d53448e a ao:Annotation ;
     ao:body "Positive_regulation" ;
-    ao:context slito:context_T72_N9a453b49454144ea92c5c2a79474c611 ;
+    ao:context slito:context_T2_Na9bb301fe52e40918b7aca0c0d53448e ;
+    ao:onSourceDocument slito:PMID22187158 .
+
+slito:T2_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "http://purl.bioontology.org/ontology/SNOMEDCT/4421005" ;
+    ao:context slito:context_T2_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "FMA:Mitochondrion",
+        "GO:0005739",
+        "NCI:C13258",
+        "NCIm:C0026237",
+        "SNOMEDCT:312239001" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T2_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T2_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "CHEBI:5931",
+        "UNIPROT:P01308" ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T73_N39d4de8238d84f98bfe7d42217eeadb1 a ao:Annotation ;
+slito:T30_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Cell_proliferation" ;
+    ao:context slito:context_T30_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "NCIm:C0334094",
+        "SNOMEDCT:30217000" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T31_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "http://purl.bioontology.org/ontology/SNOMEDCT/4421005" ;
+    ao:context slito:context_T31_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "FMA:Capillary_endothelial_cell",
+        "FMA:Normal_cell",
+        "GO:0005623",
+        "NCI:C12508",
+        "NCIm:C0007634",
+        "NCIm:C1180238",
+        "SNOMEDCT:4421005" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T32_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Regulation" ;
+    ao:context slito:context_T32_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T33_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T33_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "CHEBI:5931",
+        "UNIPROT:P01308" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T34_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T34_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T35_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T35_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "CHEBI:5931",
+        "UNIPROT:P01308" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T36_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T36_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T37_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T37_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T37_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Tissue" ;
+    ao:context slito:context_T37_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "FMA:Ganglion",
+        "NCI:C12719",
+        "NCIm:C0017067",
+        "NCIm:C0085648",
+        "NCIm:C1258666",
+        "SNOMEDCT:240205003",
+        "SNOMEDCT:71307009" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T38_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Tissue" ;
+    ao:context slito:context_T38_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T3_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T3_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "FMA:Blood_vessel_viewed_macroscopically",
+        "FMA:Endothelium",
+        "GO:0005172",
+        "GO:0040007",
+        "ICD10CM:D49",
+        "NCI:C12481",
+        "NCI:C12679",
+        "NCI:C16648",
+        "NCI:C18825",
+        "NCIm:C0005847",
+        "NCIm:C0014257",
+        "NCIm:C0018270",
+        "NCIm:C1323364",
+        "NCIm:C1621966",
+        "NCIm:C1760030",
+        "SNOMEDCT:27168002",
+        "SNOMEDCT:59820001",
+        "UNIPROT:Q13829" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T41_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T41_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T43_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T43_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T44_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Planned_process" ;
+    ao:context slito:context_T44_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T45_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T45_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "CHEBI:5931",
+        "UNIPROT:P01308" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T46_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T46_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T4_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T4_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "CHEBI:26523",
+        "UNIPROT:P08922" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T52_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Cell_proliferation" ;
+    ao:context slito:context_T52_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "NCIm:C0334094",
+        "SNOMEDCT:30217000" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T53_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "http://purl.bioontology.org/ontology/SNOMEDCT/4421005" ;
+    ao:context slito:context_T53_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "FMA:Capillary_endothelial_cell",
+        "FMA:Normal_cell",
+        "GO:0005623",
+        "NCI:C12508",
+        "NCIm:C0007634",
+        "NCIm:C1180238",
+        "SNOMEDCT:4421005" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T54_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Regulation" ;
+    ao:context slito:context_T54_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T55_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T55_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "UNIPROT:O75616" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T55_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Regulation" ;
+    ao:context slito:context_T55_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T56_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T56_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "NCIm:C1855179",
+        "UNIPROT:B0YJ81",
+        "UNIPROT:O60885",
+        "UNIPROT:P35237",
+        "UNIPROT:Q01518",
+        "UNIPROT:Q9UIQ6",
+        "omim.org:115650" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T56_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T56_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "GO:0003823",
+        "GO:0019815",
+        "GO:0042571",
+        "NCI:C16295",
+        "NCI:C40474",
+        "NCIm:C1148575",
+        "NCIm:C1167184",
+        "NCIm:C1167388",
+        "NCIm:C1621287",
+        "SNOMEDCT:68498002" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T57_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T57_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "CHEBI:5931",
+        "UNIPROT:P01308" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T58_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T58_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "CHEBI:26523",
+        "UNIPROT:P08922" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T58_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T58_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T59_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T59_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "UNIPROT:Q8N682" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T5_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T5_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "UNIPROT:Q8N682" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T5_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T5_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "CHEBI:5931",
+        "UNIPROT:P01308" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T60_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
     ao:body "Positive_regulation" ;
-    ao:context slito:context_T73_N39d4de8238d84f98bfe7d42217eeadb1 ;
+    ao:context slito:context_T60_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T74_Nc9849ebf27a24110bf3b52011a7bebd5 a ao:Annotation ;
+slito:T61_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Transcription" ;
+    ao:context slito:context_T61_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "GO:0006351",
+        "NCI:C17208",
+        "NCIm:C0040649",
+        "NCIm:C1158801",
+        "SNOMEDCT:10589004" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T62_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T62_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T63_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T63_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "CHEBI:5931",
+        "UNIPROT:P01308" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T64_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene_expression" ;
+    ao:context slito:context_T64_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "GO:0010467",
+        "NCI:C16608",
+        "NCIm:C0017262",
+        "SNOMEDCT:89551006" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T65_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Planned_process" ;
+    ao:context slito:context_T65_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T66_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T66_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T67_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Planned_process" ;
+    ao:context slito:context_T67_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T68_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Planned_process" ;
+    ao:context slito:context_T68_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T69_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Positive_regulation" ;
+    ao:context slito:context_T69_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T71_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Planned_process" ;
+    ao:context slito:context_T71_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T72_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Positive_regulation" ;
+    ao:context slito:context_T72_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T73_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Positive_regulation" ;
+    ao:context slito:context_T73_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T74_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
     ao:body "DNA_domain_or_region" ;
-    ao:context slito:context_T74_Nc9849ebf27a24110bf3b52011a7bebd5 ;
+    ao:context slito:context_T74_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T75_N9d276d6f526c473fbaccd8f59483b0f8 a ao:Annotation ;
+slito:T75_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
     ao:body "Positive_regulation" ;
-    ao:context slito:context_T75_N9d276d6f526c473fbaccd8f59483b0f8 ;
+    ao:context slito:context_T75_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T76_N2b5e42b812d442359dea4944cb6c0322 a ao:Annotation ;
+slito:T76_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
     ao:body "Positive_regulation" ;
-    ao:context slito:context_T76_N2b5e42b812d442359dea4944cb6c0322 ;
+    ao:context slito:context_T76_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T77_Ned502e49c597475eb208fcab4755fc6e a ao:Annotation ;
+slito:T77_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
     ao:body "Positive_regulation" ;
-    ao:context slito:context_T77_Ned502e49c597475eb208fcab4755fc6e ;
+    ao:context slito:context_T77_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T78_Nf7e96ae41f354ce29a56053e7ccf2803 a ao:Annotation ;
+slito:T78_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
     ao:body "Negative_regulation" ;
-    ao:context slito:context_T78_Nf7e96ae41f354ce29a56053e7ccf2803 ;
+    ao:context slito:context_T78_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T79_Nfe5cfd8c88fd41a6a99e6b012536cee6 a ao:Annotation ;
+slito:T79_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
     ao:body "Positive_regulation" ;
-    ao:context slito:context_T79_Nfe5cfd8c88fd41a6a99e6b012536cee6 ;
+    ao:context slito:context_T79_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T7_Ne3f4065eebbe4161be0dbe072df09c6a a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T7_Ne3f4065eebbe4161be0dbe072df09c6a ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
-
-slito:T80_Nb21f5245a30d4e68853433615ddfa4e0 a ao:Annotation ;
+slito:T80_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
     ao:body "Planned_process" ;
-    ao:context slito:context_T80_Nb21f5245a30d4e68853433615ddfa4e0 ;
+    ao:context slito:context_T80_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T81_N76e0a1ce963744709737a727d272cf2e a ao:Annotation ;
+slito:T81_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
     ao:body "Positive_regulation" ;
-    ao:context slito:context_T81_N76e0a1ce963744709737a727d272cf2e ;
+    ao:context slito:context_T81_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T8_N16c0fd107c334902923d5d62bb376c07 a ao:Annotation ;
+slito:T9_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T9_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "UNIPROT:P08134",
+        "UNIPROT:P84095",
+        "UNIPROT:Q13795",
+        "UNIPROT:Q8WXF7" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T9_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
     ao:body "Gene" ;
-    ao:context slito:context_T8_N16c0fd107c334902923d5d62bb376c07 ;
+    ao:context slito:context_T9_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "CHEBI:5931",
+        "UNIPROT:P01308" ;
     ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
 
-slito:T9_N26c3263525ec4c6d9d1fd53f626d5ce8 a ao:Annotation ;
-    ao:body "Gene" ;
-    ao:context slito:context_T9_N26c3263525ec4c6d9d1fd53f626d5ce8 ;
-    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+slito:context_G0_Na9bb301fe52e40918b7aca0c0d53448e a ao:TextSelector ;
+    ao:exact "Tat" ;
+    ao:offset 0 ;
+    ao:range 3 .
 
-slito:context_T1000_N49a6e05887d54c05a7d6cd702f9d7b74 a ao:TextSelector ;
+slito:context_G1_Na9bb301fe52e40918b7aca0c0d53448e a ao:TextSelector ;
+    ao:exact "MIP-1alpha" ;
+    ao:offset 25 ;
+    ao:range 10 .
+
+slito:context_G2_Na9bb301fe52e40918b7aca0c0d53448e a ao:TextSelector ;
+    ao:exact "p65" ;
+    ao:offset 52 ;
+    ao:range 3 .
+
+slito:context_T0_Na9bb301fe52e40918b7aca0c0d53448e a ao:TextSelector ;
+    ao:exact "activated" ;
+    ao:offset 11 ;
+    ao:range 9 .
+
+slito:context_T1000_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "patients" ;
     ao:offset 283 ;
     ao:range 291 .
 
-slito:context_T1001_N4382dcdf8d0e4ee5bd9e4dcec91fc349 a ao:TextSelector ;
+slito:context_T1001_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "rat" ;
     ao:offset 665 ;
     ao:range 668 .
 
-slito:context_T1002_N8dd38ff68b9b4637a54e94288d5744d1 a ao:TextSelector ;
+slito:context_T1002_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "human" ;
     ao:offset 765 ;
     ao:range 770 .
 
-slito:context_T1003_N32612f0b87a24d4d91b9fc7411416694 a ao:TextSelector ;
+slito:context_T1003_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "human" ;
     ao:offset 1323 ;
     ao:range 1328 .
 
-slito:context_T1004_N87050e82476a48089214d7dc5aae2ff0 a ao:TextSelector ;
+slito:context_T1004_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "patients" ;
     ao:offset 1945 ;
     ao:range 1953 .
 
-slito:context_T10_N3d00755b6cd647e5839e98382a77284c a ao:TextSelector ;
+slito:context_T10_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "formation" ;
+    ao:offset 363 ;
+    ao:range 9 .
+
+slito:context_T10_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "expression" ;
     ao:offset 525 ;
     ao:range 535 .
 
-slito:context_T11_N3ba4a03f1e254b7eb64ada2c6cf7b2dc a ao:TextSelector ;
+slito:context_T11_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "28S small mitoribosomal subunit" ;
+    ao:offset 380 ;
+    ao:range 31 .
+
+slito:context_T11_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "induced" ;
     ao:offset 8 ;
     ao:range 15 .
 
-slito:context_T12_N9afed17b1c484b76b76596473fc1a219 a ao:TextSelector ;
+slito:context_T12_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "ERAL1" ;
+    ao:offset 452 ;
+    ao:range 5 .
+
+slito:context_T12_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "VEGF" ;
     ao:offset 515 ;
     ao:range 519 .
 
-slito:context_T13_N4b6d3f6ea9a34dbda72d3b8e3d2243ba a ao:TextSelector ;
+slito:context_T13_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "inhibits" ;
+    ao:offset 478 ;
+    ao:range 8 .
+
+slito:context_T13_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "insulin" ;
     ao:offset 581 ;
     ao:range 588 .
 
-slito:context_T14_N03dbd260a76c4c3e960f3a5e2a078b9c a ao:TextSelector ;
+slito:context_T14_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "promotes" ;
+    ao:offset 523 ;
+    ao:range 8 .
+
+slito:context_T14_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "expression" ;
     ao:offset 597 ;
     ao:range 607 .
 
-slito:context_T15_N138dc30236a74e02bc17c7626be07f10 a ao:TextSelector ;
+slito:context_T15_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "generation" ;
+    ao:offset 562 ;
+    ao:range 10 .
+
+slito:context_T15_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "VEGF" ;
     ao:offset 592 ;
     ao:range 596 .
 
-slito:context_T16_N2334d808f18e43ccae0643ac233dbc65 a ao:TextSelector ;
+slito:context_T16_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "leading" ;
+    ao:offset 574 ;
+    ao:range 7 .
+
+slito:context_T16_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "VEGF" ;
     ao:offset 677 ;
     ao:range 681 .
 
-slito:context_T17_N043dea85a3284958b4dd2666da878d70 a ao:TextSelector ;
+slito:context_T17_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "ERAL1" ;
+    ao:offset 641 ;
+    ao:range 5 .
+
+slito:context_T17_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "insulin" ;
     ao:offset 730 ;
     ao:range 737 .
 
-slito:context_T18_N3940e9219ce1499cadf0fd622dd69ee2 a ao:TextSelector ;
+slito:context_T18_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "LC3-I" ;
+    ao:offset 693 ;
+    ao:range 5 .
+
+slito:context_T18_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "expression" ;
     ao:offset 753 ;
     ao:range 763 .
 
-slito:context_T19_N96e16c31e47c45a996b0b48d0078349d a ao:TextSelector ;
+slito:context_T19_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "LC3-II" ;
+    ao:offset 702 ;
+    ao:range 6 .
+
+slito:context_T19_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "VEGF" ;
     ao:offset 748 ;
     ao:range 752 .
 
-slito:context_T1_N7305e3896d9e447d86c14ed467d488a1 a ao:TextSelector ;
-    ao:exact "expression" ;
-    ao:offset 51 ;
-    ao:range 61 .
-
-slito:context_T1_Na9b9c173d8454d7a8fda2f7702b03b5e a ao:TextSelector ;
+slito:context_T1_N833a5290d6db4ffb8c16860002b0d7de a ao:TextSelector ;
     ao:exact "pathway" ;
     ao:offset 48 ;
     ao:range 7 .
 
-slito:context_T20_N9905185c8e434d889bd468fe499ddc76 a ao:TextSelector ;
+slito:context_T1_Na9bb301fe52e40918b7aca0c0d53448e a ao:TextSelector ;
+    ao:exact "expression" ;
+    ao:offset 36 ;
+    ao:range 10 .
+
+slito:context_T1_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "pathway" ;
+    ao:offset 48 ;
+    ao:range 7 .
+
+slito:context_T1_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
+    ao:exact "expression" ;
+    ao:offset 51 ;
+    ao:range 61 .
+
+slito:context_T20_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "enhanced" ;
+    ao:offset 716 ;
+    ao:range 8 .
+
+slito:context_T20_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "retinal pigment epithelial (RPE) cells" ;
     ao:offset 771 ;
     ao:range 809 .
 
-slito:context_T21_Na13bb8426fcf454a968766434473efba a ao:TextSelector ;
+slito:context_T21_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "accumulation" ;
+    ao:offset 725 ;
+    ao:range 12 .
+
+slito:context_T21_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "luciferase" ;
     ao:offset 1101 ;
     ao:range 1111 .
 
-slito:context_T22_N2e9c6129b3a040ec8139f756ff723946 a ao:TextSelector ;
+slito:context_T22_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "blocked" ;
+    ao:offset 804 ;
+    ao:range 7 .
+
+slito:context_T22_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "therapy" ;
     ao:offset 141 ;
     ao:range 148 .
 
-slito:context_T23_Nb24363595a8b4d5db947bd94e7f02702 a ao:TextSelector ;
+slito:context_T23_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "autophagy inhibitor 3-MA" ;
+    ao:offset 819 ;
+    ao:range 24 .
+
+slito:context_T23_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "insulin" ;
     ao:offset 826 ;
     ao:range 833 .
 
-slito:context_T24_N343f6dd8850048cf92c3ae0cfd38babe a ao:TextSelector ;
+slito:context_T24_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "ROS scavenger NAC" ;
+    ao:offset 862 ;
+    ao:range 17 .
+
+slito:context_T24_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "VEGF" ;
     ao:offset 839 ;
     ao:range 843 .
 
-slito:context_T25_N5c6220e461b540f385448aeb61ade623 a ao:TextSelector ;
+slito:context_T25_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "Inhibition" ;
+    ao:offset 881 ;
+    ao:range 10 .
+
+slito:context_T25_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "RNase" ;
     ao:offset 877 ;
     ao:range 882 .
 
-slito:context_T26_Nb3ce392d8eb34d97a4170ad34847e8f3 a ao:TextSelector ;
+slito:context_T26_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "ERAL1 siRNA" ;
+    ao:offset 937 ;
+    ao:range 11 .
+
+slito:context_T26_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "insulin" ;
     ao:offset 932 ;
     ao:range 939 .
 
-slito:context_T27_N13961cd42cfe424caf9caa4a3a03e05a a ao:TextSelector ;
+slito:context_T27_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "chloramphenicol (CAP)" ;
+    ao:offset 952 ;
+    ao:range 21 .
+
+slito:context_T27_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "RPE cells" ;
     ao:offset 948 ;
     ao:range 957 .
 
-slito:context_T28_Naee6149ed6954906af66c1dd67b7aca0 a ao:TextSelector ;
+slito:context_T28_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "inhibitor" ;
+    ao:offset 986 ;
+    ao:range 9 .
+
+slito:context_T28_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "VEGF" ;
     ao:offset 975 ;
     ao:range 979 .
 
-slito:context_T2_N0141cb7d15d94b6e8140eba786497afe a ao:TextSelector ;
+slito:context_T29_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "induced" ;
+    ao:offset 1014 ;
+    ao:range 7 .
+
+slito:context_T2_N833a5290d6db4ffb8c16860002b0d7de a ao:TextSelector ;
     ao:exact "mitochondrial" ;
     ao:offset 71 ;
     ao:range 13 .
 
-slito:context_T2_N4dc2a4d1611e4be2a1e970eca7d8184d a ao:TextSelector ;
+slito:context_T2_Na9bb301fe52e40918b7aca0c0d53448e a ao:TextSelector ;
+    ao:exact "-dependent" ;
+    ao:offset 55 ;
+    ao:range 10 .
+
+slito:context_T2_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "mitochondrial" ;
+    ao:offset 71 ;
+    ao:range 13 .
+
+slito:context_T2_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "Insulin" ;
     ao:offset 0 ;
     ao:range 7 .
 
-slito:context_T30_Nce8b19a6a7644f0da75d6a8ee9c19670 a ao:TextSelector ;
+slito:context_T30_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "HTC-116 TP53" ;
+    ao:offset 1069 ;
+    ao:range 12 .
+
+slito:context_T30_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "proliferation" ;
     ao:offset 1019 ;
     ao:range 1032 .
 
-slito:context_T31_Nc31f15b90d4745b6a388a0033b53feee a ao:TextSelector ;
+slito:context_T31_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "induction" ;
+    ao:offset 1163 ;
+    ao:range 9 .
+
+slito:context_T31_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "capillary endothelial cell" ;
     ao:offset 992 ;
     ao:range 1018 .
 
-slito:context_T32_Nfe9d295a0baf4cc5b5ed434c7ab0f24b a ao:TextSelector ;
+slito:context_T32_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "resulting" ;
+    ao:offset 1192 ;
+    ao:range 9 .
+
+slito:context_T32_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "effect" ;
     ao:offset 486 ;
     ao:range 492 .
 
-slito:context_T33_Nd83535da55b54120afef9b633d7d81cd a ao:TextSelector ;
+slito:context_T33_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "inhibition" ;
+    ao:offset 1239 ;
+    ao:range 10 .
+
+slito:context_T33_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "insulin" ;
     ao:offset 1050 ;
     ao:range 1057 .
 
-slito:context_T34_N78544ec8eb834363affe571291716154 a ao:TextSelector ;
+slito:context_T34_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "induced" ;
+    ao:offset 1250 ;
+    ao:range 7 .
+
+slito:context_T34_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "VEGF" ;
     ao:offset 1075 ;
     ao:range 1079 .
 
-slito:context_T35_N7e7e68f082ca40c88aec181da2a95772 a ao:TextSelector ;
+slito:context_T35_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "TP53" ;
+    ao:offset 1258 ;
+    ao:range 4 .
+
+slito:context_T35_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "Insulin" ;
     ao:offset 1187 ;
     ao:range 1194 .
 
-slito:context_T36_N1692af89b6f04ebab25f0f135e5d198a a ao:TextSelector ;
+slito:context_T36_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "enhancing" ;
+    ao:offset 1303 ;
+    ao:range 9 .
+
+slito:context_T36_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "VEGF" ;
     ao:offset 1205 ;
     ao:range 1209 .
 
-slito:context_T37_N0a84fa077b27448b8f7a3e99163e80b1 a ao:TextSelector ;
+slito:context_T37_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "TP53 promoter" ;
+    ao:offset 1313 ;
+    ao:range 13 .
+
+slito:context_T37_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "ganglion" ;
     ao:offset 1229 ;
     ao:range 1237 .
 
-slito:context_T38_N7ec14f82d4d34ed3857d02c5fc4fadae a ao:TextSelector ;
+slito:context_T38_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "increased" ;
+    ao:offset 1341 ;
+    ao:range 9 .
+
+slito:context_T38_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "inner nuclear" ;
     ao:offset 1239 ;
     ao:range 1252 .
 
-slito:context_T39_N49b8d9a6225b4a899448b019e1c32589 a ao:TextSelector ;
+slito:context_T39_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "TP53 protein" ;
+    ao:offset 1351 ;
+    ao:range 12 .
+
+slito:context_T39_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "RPE cell layers" ;
     ao:offset 1258 ;
     ao:range 1273 .
 
-slito:context_T3_N5ffbfa1539f84226af298ed54cae0675 a ao:TextSelector ;
+slito:context_T3_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "induced" ;
+    ao:offset 13 ;
+    ao:range 7 .
+
+slito:context_T3_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "vascular endothelial growth factor" ;
     ao:offset 16 ;
     ao:range 50 .
 
-slito:context_T40_Na9ec10d83ebf403093b0f6beeea36fbe a ao:TextSelector ;
+slito:context_T40_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "suppressing" ;
+    ao:offset 1377 ;
+    ao:range 11 .
+
+slito:context_T40_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "insulin" ;
     ao:offset 1285 ;
     ao:range 1292 .
 
-slito:context_T41_N4057ca0938d3460997df904c6c28c802 a ao:TextSelector ;
+slito:context_T41_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "TP53" ;
+    ao:offset 1389 ;
+    ao:range 4 .
+
+slito:context_T41_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "VEGF" ;
     ao:offset 1303 ;
     ao:range 1307 .
 
-slito:context_T42_Necd6d97c52c04763af2e3322b58e4fb9 a ao:TextSelector ;
+slito:context_T42_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "MAPK14" ;
+    ao:offset 1417 ;
+    ao:range 6 .
+
+slito:context_T42_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "RPE cells" ;
     ao:offset 1329 ;
     ao:range 1338 .
 
-slito:context_T43_Ne152c05e1aea4c768c16dc22e29395c7 a ao:TextSelector ;
+slito:context_T43_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "p38" ;
+    ao:offset 1424 ;
+    ao:range 3 .
+
+slito:context_T43_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "VEGF" ;
     ao:offset 1352 ;
     ao:range 1356 .
 
-slito:context_T44_N14715c20350c4ba09e2b32e99fd33ab8 a ao:TextSelector ;
+slito:context_T44_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "mediated" ;
+    ao:offset 1433 ;
+    ao:range 8 .
+
+slito:context_T44_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "treatment" ;
     ao:offset 1423 ;
     ao:range 1432 .
 
-slito:context_T45_N54e143c21033470b9320177566103c92 a ao:TextSelector ;
+slito:context_T45_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "TP53" ;
+    ao:offset 1442 ;
+    ao:range 4 .
+
+slito:context_T45_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "Insulin" ;
     ao:offset 1415 ;
     ao:range 1422 .
 
-slito:context_T46_Ndb2c3ed618aa4acdbee944b47d4f9acd a ao:TextSelector ;
+slito:context_T46_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "phosphorylation" ;
+    ao:offset 1447 ;
+    ao:range 15 .
+
+slito:context_T46_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "VEGF" ;
     ao:offset 1448 ;
     ao:range 1452 .
 
-slito:context_T47_Nf8da34e167bc45438421e04f82442376 a ao:TextSelector ;
+slito:context_T47_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "Upregulation" ;
+    ao:offset 1464 ;
+    ao:range 12 .
+
+slito:context_T47_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "RPE cell" ;
     ao:offset 1483 ;
     ao:range 1491 .
 
-slito:context_T48_N04852a027ef843068e0850e7b877bb66 a ao:TextSelector ;
+slito:context_T48_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "TP53" ;
+    ao:offset 1480 ;
+    ao:range 4 .
+
+slito:context_T48_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "insulin" ;
     ao:offset 1576 ;
     ao:range 1583 .
 
-slito:context_T49_Nb8d31c7f6ca34804b2a58600a99343d9 a ao:TextSelector ;
+slito:context_T49_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "target" ;
+    ao:offset 1504 ;
+    ao:range 6 .
+
+slito:context_T49_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "RPE cell" ;
     ao:offset 1596 ;
     ao:range 1604 .
 
-slito:context_T4_N700631a2ea404617803fa97c5dfcbb46 a ao:TextSelector ;
+slito:context_T4_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "ROS-TP53" ;
+    ao:offset 33 ;
+    ao:range 8 .
+
+slito:context_T4_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "retina" ;
     ao:offset 65 ;
     ao:range 71 .
 
-slito:context_T50_N9e1e3915d76c48a8836ddbf33e9a110d a ao:TextSelector ;
+slito:context_T50_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "DRAM1" ;
+    ao:offset 1516 ;
+    ao:range 5 .
+
+slito:context_T50_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "VEGF" ;
     ao:offset 1710 ;
     ao:range 1714 .
 
-slito:context_T52_N4d6d6208a0a641a7b618d211540a689f a ao:TextSelector ;
+slito:context_T51_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "CDKN1A" ;
+    ao:offset 1531 ;
+    ao:range 6 .
+
+slito:context_T52_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "p21" ;
+    ao:offset 1538 ;
+    ao:range 3 .
+
+slito:context_T52_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "proliferation" ;
     ao:offset 1649 ;
     ao:range 1662 .
 
-slito:context_T53_N3ac223d6658747b28e20b008843ce2cc a ao:TextSelector ;
+slito:context_T53_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "required" ;
+    ao:offset 1547 ;
+    ao:range 8 .
+
+slito:context_T53_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "capillary endothelial cell" ;
     ao:offset 1622 ;
     ao:range 1648 .
 
-slito:context_T54_N1b07640afa5a42778a4b230152e1af7f a ao:TextSelector ;
+slito:context_T54_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "induction" ;
+    ao:offset 1574 ;
+    ao:range 9 .
+
+slito:context_T54_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "effect" ;
     ao:offset 571 ;
     ao:range 577 .
 
-slito:context_T55_N36748bb9850c484ba08f52238f921827 a ao:TextSelector ;
+slito:context_T55_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "ERAL1 siRNA" ;
+    ao:offset 1587 ;
+    ao:range 11 .
+
+slito:context_T55_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "regulates" ;
     ao:offset 738 ;
     ao:range 747 .
 
-slito:context_T56_Na6a9d6f679404147896452c89d0a9570 a ao:TextSelector ;
+slito:context_T56_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "CAP" ;
+    ao:offset 1602 ;
+    ao:range 3 .
+
+slito:context_T56_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "anti-VEGF neutralizing antibody" ;
     ao:offset 1705 ;
     ao:range 1736 .
 
-slito:context_T57_N63d6801d3e9442d89a88f6a288ee161b a ao:TextSelector ;
+slito:context_T57_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "induced" ;
+    ao:offset 1671 ;
+    ao:range 7 .
+
+slito:context_T57_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "Insulin" ;
     ao:offset 1751 ;
     ao:range 1758 .
 
-slito:context_T58_Ne6752814a042409f84f0c6fb68caa14f a ao:TextSelector ;
+slito:context_T58_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "ROS-TP53" ;
+    ao:offset 1691 ;
+    ao:range 8 .
+
+slito:context_T58_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "VEGF" ;
     ao:offset 1769 ;
     ao:range 1773 .
 
-slito:context_T59_Nd0d75f6426504de098ef874072203551 a ao:TextSelector ;
+slito:context_T59_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "DRAM1" ;
+    ao:offset 1700 ;
+    ao:range 5 .
+
+slito:context_T59_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "RPE cells" ;
     ao:offset 1810 ;
     ao:range 1819 .
 
-slito:context_T5_N8e00251e03d242f485edb990ab5e26e9 a ao:TextSelector ;
+slito:context_T5_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "DRAM1" ;
+    ao:offset 42 ;
+    ao:range 5 .
+
+slito:context_T5_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "insulin" ;
     ao:offset 133 ;
     ao:range 140 .
 
-slito:context_T60_N73b0f3b238da432695fc02efd24897d5 a ao:TextSelector ;
+slito:context_T60_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "response" ;
+    ao:offset 1717 ;
+    ao:range 8 .
+
+slito:context_T60_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "enhanced" ;
     ao:offset 1828 ;
     ao:range 1836 .
 
-slito:context_T61_N1710790c8a3843529cddd35cd8a506ce a ao:TextSelector ;
+slito:context_T61_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "inhibition" ;
+    ao:offset 1761 ;
+    ao:range 10 .
+
+slito:context_T61_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "transcription" ;
     ao:offset 1837 ;
     ao:range 1850 .
 
-slito:context_T62_Nf2a648e13b814760ac2836c25eea7375 a ao:TextSelector ;
+slito:context_T62_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "VEGF" ;
     ao:offset 1858 ;
     ao:range 1862 .
 
-slito:context_T63_N7ce63d0a08d54166b4d7575cdb463c7b a ao:TextSelector ;
+slito:context_T63_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "insulin" ;
     ao:offset 1879 ;
     ao:range 1886 .
 
-slito:context_T64_N69b24570b9a0484f9ec0eaba06ad0c18 a ao:TextSelector ;
+slito:context_T64_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "expression" ;
     ao:offset 2004 ;
     ao:range 2014 .
 
-slito:context_T65_Nd98689baa75d43f49d6198975f02af85 a ao:TextSelector ;
+slito:context_T65_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "exposed" ;
     ao:offset 815 ;
     ao:range 822 .
 
-slito:context_T66_N900eca653de048bc9171e4bd99bdef09 a ao:TextSelector ;
+slito:context_T66_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "VEGF" ;
     ao:offset 1994 ;
     ao:range 1998 .
 
-slito:context_T67_N0d2eecc1671d4a89a9099f682fcd47a9 a ao:TextSelector ;
+slito:context_T67_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "treated" ;
     ao:offset 940 ;
     ao:range 947 .
 
-slito:context_T68_N71be15bdbe81407ebb8307e3dab915aa a ao:TextSelector ;
+slito:context_T68_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "assayed" ;
     ao:offset 963 ;
     ao:range 970 .
 
-slito:context_T69_N8d905b1bacad4cb0a817dd4a01f7c3fc a ao:TextSelector ;
+slito:context_T69_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "stimulate" ;
     ao:offset 1061 ;
     ao:range 1070 .
 
-slito:context_T6_N737fb8c4a35a4672981732808d1728df a ao:TextSelector ;
+slito:context_T6_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "response" ;
+    ao:offset 59 ;
+    ao:range 8 .
+
+slito:context_T6_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "insulin" ;
     ao:offset 232 ;
     ao:range 239 .
 
-slito:context_T70_N98b35f72da504fe8af8a47374a50f8bb a ao:TextSelector ;
+slito:context_T70_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "promoter" ;
     ao:offset 1080 ;
     ao:range 1088 .
 
-slito:context_T71_N794a023d1fb1470db688012b7addab56 a ao:TextSelector ;
+slito:context_T71_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "linked" ;
     ao:offset 1089 ;
     ao:range 1095 .
 
-slito:context_T72_N9a453b49454144ea92c5c2a79474c611 a ao:TextSelector ;
+slito:context_T72_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "increased" ;
     ao:offset 1195 ;
     ao:range 1204 .
 
-slito:context_T73_N39d4de8238d84f98bfe7d42217eeadb1 a ao:TextSelector ;
+slito:context_T73_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "enhanced" ;
     ao:offset 1343 ;
     ao:range 1351 .
 
-slito:context_T74_Nc9849ebf27a24110bf3b52011a7bebd5 a ao:TextSelector ;
+slito:context_T74_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "promoter" ;
     ao:offset 1357 ;
     ao:range 1365 .
 
-slito:context_T75_N9d276d6f526c473fbaccd8f59483b0f8 a ao:TextSelector ;
+slito:context_T75_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "increased" ;
     ao:offset 1293 ;
     ao:range 1302 .
 
-slito:context_T76_N2b5e42b812d442359dea4944cb6c0322 a ao:TextSelector ;
+slito:context_T76_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "increased" ;
     ao:offset 1438 ;
     ao:range 1447 .
 
-slito:context_T77_Ned502e49c597475eb208fcab4755fc6e a ao:TextSelector ;
+slito:context_T77_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "stimulated" ;
     ao:offset 1611 ;
     ao:range 1621 .
 
-slito:context_T78_Nf7e96ae41f354ce29a56053e7ccf2803 a ao:TextSelector ;
+slito:context_T78_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "blocked" ;
     ao:offset 1694 ;
     ao:range 1701 .
 
-slito:context_T79_Nfe5cfd8c88fd41a6a99e6b012536cee6 a ao:TextSelector ;
+slito:context_T79_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "increases" ;
     ao:offset 1759 ;
     ao:range 1768 .
 
-slito:context_T7_Ne3f4065eebbe4161be0dbe072df09c6a a ao:TextSelector ;
+slito:context_T7_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "inhibition" ;
+    ao:offset 103 ;
+    ao:range 10 .
+
+slito:context_T7_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "Vascular endothelial growth factor" ;
     ao:offset 322 ;
     ao:range 356 .
 
-slito:context_T80_Nb21f5245a30d4e68853433615ddfa4e0 a ao:TextSelector ;
+slito:context_T80_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "therapy" ;
     ao:offset 1887 ;
     ao:range 1894 .
 
-slito:context_T81_N76e0a1ce963744709737a727d272cf2e a ao:TextSelector ;
+slito:context_T81_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "increased" ;
     ao:offset 1976 ;
     ao:range 1985 .
 
-slito:context_T8_N16c0fd107c334902923d5d62bb376c07 a ao:TextSelector ;
+slito:context_T8_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "ERAL1" ;
+    ao:offset 311 ;
+    ao:range 5 .
+
+slito:context_T8_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "VEGF" ;
     ao:offset 358 ;
     ao:range 362 .
 
-slito:context_T9_N26c3263525ec4c6d9d1fd53f626d5ce8 a ao:TextSelector ;
+slito:context_T9_Nab4823c044e74716a28add4208c5bd83 a ao:TextSelector ;
+    ao:exact "nuclear-encoded GTPase" ;
+    ao:offset 322 ;
+    ao:range 22 .
+
+slito:context_T9_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:TextSelector ;
     ao:exact "insulin" ;
     ao:offset 496 ;
     ao:range 503 .
 
+slito:T27_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "http://purl.bioontology.org/ontology/SNOMEDCT/4421005" ;
+    ao:context slito:context_T27_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "FMA:Normal_cell",
+        "FMA:Pigmented_layer_of_retina",
+        "FMA:Set_of_cells",
+        "GO:0005623",
+        "NCI:C12508",
+        "NCI:C33470",
+        "NCIm:C0007634",
+        "NCIm:C0035322",
+        "NCIm:C3282337",
+        "SNOMEDCT:41275009",
+        "SNOMEDCT:4421005" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T35_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T35_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T39_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Tissue" ;
+    ao:context slito:context_T39_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "FMA:Normal_cell",
+        "FMA:Pigmented_layer_of_retina",
+        "FMA:Set_of_cells",
+        "GO:0005623",
+        "NCI:C12508",
+        "NCI:C33470",
+        "NCI:C66831",
+        "NCIm:C0007634",
+        "NCIm:C0035322",
+        "NCIm:C0934502",
+        "NCIm:C1269647",
+        "SNOMEDCT:362837007",
+        "SNOMEDCT:41275009",
+        "SNOMEDCT:4421005" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T40_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "Gene" ;
+    ao:context slito:context_T40_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:hasTopic "CHEBI:5931",
+        "UNIPROT:P01308" ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T70_Nc3748ed2e73b4727ac3d2db5e01acf9c a ao:Annotation ;
+    ao:body "DNA_domain_or_region" ;
+    ao:context slito:context_T70_Nc3748ed2e73b4727ac3d2db5e01acf9c ;
+    ao:onSourceDocument <http://bioinformatics.ua.pt/slito/test_files/brat_sample> .
+
+slito:T48_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T48_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T50_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T50_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "UNIPROT:Q8N682" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T51_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T51_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "UNIPROT:P38936" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T52_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T52_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "UNIPROT:P38936",
+        "UNIPROT:P42857",
+        "UNIPROT:Q15170" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T41_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T41_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T42_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T42_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "UNIPROT:Q16539" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T43_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T43_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "GO:0004707",
+        "NCIm:C1150579",
+        "UNIPROT:O75791",
+        "UNIPROT:O95433",
+        "UNIPROT:P28482",
+        "UNIPROT:P46108",
+        "UNIPROT:Q13155",
+        "UNIPROT:Q16539",
+        "UNIPROT:Q9NV58",
+        "UNIPROT:Q9Y2S7" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T45_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T45_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:T39_Nab4823c044e74716a28add4208c5bd83 a ao:Annotation ;
+    ao:body "Gene_or_Protein" ;
+    ao:context slito:context_T39_Nab4823c044e74716a28add4208c5bd83 ;
+    ao:hasTopic "CHEBI:16541",
+        "CHEBI:36080" ;
+    ao:onSourceDocument slito:PMID3429544 .
+
+slito:PMID22187158 a pav:SourceDocument ;
+    dc:description """
+                Tat mostly activated the MIP-1alpha expression in a p65-dependent manner.
+            """ ;
+    dc:identifier "PMID22187158" ;
+    pav:retrievedFrom "http://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/BioC_ISMB2014.pdf" .
+
 slito:PMID3429544 a pav:SourceDocument ;
     dc:description """
                 Autophagy is induced through the ROS-TP53-DRAM1 pathway in response to mitochondrial protein synthesis inhibition
+            """,
+        """
+                Autophagy is induced through the ROS-TP53-DRAM1 pathway in response to mitochondrial protein synthesis inhibition
+Abstract
+Mitoribosome in mammalian cells is responsible for synthesis of 13 mtDNA-encoded proteins, which are integral parts of four mitochondrial respiratory chain complexes (I, III, IV and V). ERAL1 is a nuclear-encoded GTPase important for the formation of the 28S small mitoribosomal subunit. Here, we demonstrate that knockdown of ERAL1 by RNA interference inhibits mitochondrial protein synthesis and promotes reactive oxygen species (ROS) generation, leading to autophagic vacuolization in HeLa cells. Cells that lack ERAL1 expression showed a significant conversion of LC3-I to LC3-II and an enhanced accumulation of autophagic vacuoles carrying the LC3 marker, all of which were blocked by the autophagy inhibitor 3-MA as well as by the ROS scavenger NAC. Inhibition of mitochondrial protein synthesis either by ERAL1 siRNA or chloramphenicol (CAP), a specific inhibitor of mitoribosomes, induced autophagy in HTC-116 TP53+/+ cells, but not in HTC-116 TP53?/? cells, indicating that tumor protein 53 (TP53) is essential for the autophagy induction. The ROS elevation resulting from mitochondrial protein synthesis inhibition induced TP53 expression at transcriptional levels by enhancing TP53 promoter activity, and increased TP53 protein stability by suppressing TP53 ubiquitination through MAPK14/p38 MAPK-mediated TP53 phosphorylation. Upregulation of TP53 and its downstream target gene DRAM1, but not CDKN1A/p21, was required for the autophagy induction in ERAL1 siRNA or CAP-treated cells. Altogether, these data indicate that autophagy is induced through the ROS-TP53-DRAM1 pathway in response to mitochondrial protein synthesis inhibition.
             """ ;
     dc:identifier "PMID3429544" .
 

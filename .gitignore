@@ -4,3 +4,7 @@
 
 # python
 *.pyc
+
+# output files
+*.rdf
+*.ttl

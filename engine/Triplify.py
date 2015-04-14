@@ -68,11 +68,13 @@ class Triplify:
 
         # self.store.load('http://purl.org/ao/')
 
+        # generate a unique id for the annotation set
+        b_id = BNode()
+        b_id = '_' + str(b_id)
+
         for annotation in annotations:
 
             # annotation
-            b_id = BNode()
-            b_id = '_' + str(b_id)
             ann_id = URIRef(self.namespace + annotation.id + b_id)
             self.store.add((ann_id, RDF.type, AO.Annotation))
 
