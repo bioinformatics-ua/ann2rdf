@@ -6,6 +6,7 @@ from rdflib import URIRef, Literal, BNode
 from rdflib.namespace import RDF, FOAF, XSD, DC, RDFS, Namespace
 from Store import *
 from file_utils import *
+import sys
 
 AO = Namespace('http://purl.org/ao/')
 PAV = Namespace('http://purl.org/pav/')
@@ -68,11 +69,16 @@ class Triplify:
 
         # self.store.load('http://purl.org/ao/')
 
-        # generate a unique id for the annotation set
-        b_id = BNode()
-        b_id = '_' + str(b_id)
-
+        counter = 0
         for annotation in annotations:
+
+            counter += 1
+            sys.stdout.write('\rTRIPLIFY: '+str(counter))
+            sys.stdout.flush()
+
+            # generate a unique id for the annotation set
+            # b_id = BNode()
+            b_id = '_' + annotation.hash
 
             # annotation
             ann_id = URIRef(self.namespace + annotation.id + b_id)
@@ -95,6 +101,13 @@ class Triplify:
                     self.store.add((ann_id, AO.body, URIRef(tag)))
                 else:
                     self.store.add((ann_id, AO.body, Literal(tag)))
+
+            # topic
+            for topic in annotation.topics:
+                if str(topic).startswith('http'):
+                    self.store.add((ann_id, AO.hasTopic, URIRef(topic)))
+                else:
+                    self.store.add((ann_id, AO.hasTopic, Literal(topic)))
 
             # relations
             for relation in annotation.relations:

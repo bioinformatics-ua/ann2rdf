@@ -45,3 +45,15 @@ def get_files_from_dir(args_input):
     else:
         input_files.append(args_input)
     return input_files
+
+
+# extract filename id
+def get_source_filename(filename):
+
+    if '.' in filename:
+        filename = filename.split('.')[0]
+
+    if '/' in filename:
+        filename = filename.split('/')[1]
+
+    return filename

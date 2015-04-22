@@ -19,7 +19,7 @@ class AnnFactory(FactoryBase):
     # TODO: catch exceptions
     def process(self, file_content):
 
-        source = Source(self.filename.split('.')[0])
+        source = Source(get_source_filename(self.filename))
 
         for line in file_content:
 
@@ -68,7 +68,7 @@ class AnnFactory(FactoryBase):
                 ann_to_find = Annotation(values['id'])
                 index = self.annotations.index(ann_to_find)
                 ann = self.annotations.__getitem__(index)
-                ann.add_tag(values['reference'])
+                ann.add_topic(values['reference'])
                 ann.add_tag(values['tag'])
                 ann.source = source
                 self.annotations.append(ann)
@@ -88,7 +88,7 @@ class AnnFactory(FactoryBase):
         space = tab[1].split(' ')
         ann['tag'] = space[0]
         ann['offset'] = space[1]
-        ann['range'] = space[2]
+        ann['range'] = str(int(space[2]) - int(ann['offset']))
         return ann
 
     # parse event annotations (E) from line

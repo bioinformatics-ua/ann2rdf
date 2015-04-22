@@ -6,7 +6,9 @@ __author__ = 'Pedro Sernadela sernadela@ua.pt'
 class Annotation:
     def __init__(self, id):
         self.id = id
+        self.hash = None
         self.tags = []
+        self.topics = []
         self.relations = []
         self.context = None
         self.source = None
@@ -23,6 +25,9 @@ class Annotation:
 
     def add_tag(self, tag):
         self.tags.append(tag)
+
+    def add_topic(self, topic):
+        self.topics.append(topic)
 
     def add_relation(self, relation):
         self.relations.append(relation)

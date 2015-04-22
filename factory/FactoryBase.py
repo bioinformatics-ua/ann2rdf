@@ -3,6 +3,7 @@ __author__ = 'Pedro Sernadela sernadela@ua.pt'
 '''
 Base class to build a file format connector
 '''
+from rdflib import BNode
 
 
 class FactoryBase(object):
@@ -22,3 +23,11 @@ class FactoryBase(object):
     '''
     def process(self, file_content):
         pass
+
+    '''
+    Generate a unique id hash for the annotation set
+    '''
+    def generate_hash(self):
+        b_id = BNode()
+        for ann in self.annotations:
+            ann.hash = str(b_id)

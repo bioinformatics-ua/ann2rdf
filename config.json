@@ -1,11 +1,11 @@
 {
-  "namespace":"http://bioinformatics.ua.pt/slito/",
-  "prefix":"slito",
+  "namespace":"http://bioinformatics.ua.pt/ann2rdf/",
+  "prefix":"ann2rdf",
   "normalization":[
     {
       "service":"http://bioinformatics.ua.pt/becas/api/text/annotate?email=sernadela@ua.pt&tool=test",
       "query":"*.*.refs",
-      "enable":true
+      "enable":false
     },
     {
       "service":"http://data.bioontology.org/annotator?apikey=b3fe8ec4-42f9-4b13-9007-417ddee3caf9",
@@ -16,28 +16,12 @@
   "mappings":
     {
       "tags":[
-        {
-          "if":"Cell",
-          "then": "http://purl.bioontology.org/ontology/SNOMEDCT/4421005"
-        },
-        {
-          "if":"Gene_or_gene_product",
-          "then":"Gene"
-        }
       ]
     ,
       "relations":[
         {
-          "if":"trigger",
-          "then": "Trigger"
-        },
-        {
-          "if":"Arg1",
-          "then":"http://www.bootstrep.eu/ontology/GRO#partOf"
-        },
-        {
-          "if":"Arg2",
-          "then":"http://www.bootstrep.eu/ontology/GRO#partOf"
+          "if":"sameSentence",
+          "then": "http://purl.org/dc/elements/1.1/relation"
         }
       ]
     }
