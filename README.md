@@ -8,6 +8,12 @@ Semantic layer to convert multiple annotations files into RDF data
   - [Standoff](http://brat.nlplab.org/standoff.html)
   
 ## Installation
+
+  ```
+  apt-get install libxml2-dev libxslt1-dev python-dev
+  apt-get install python-lxml
+  ```
+
   ```
   pip install -r requirements.txt
   ```
