@@ -69,7 +69,7 @@ class AnnFactory(FactoryBase):
                 index = self.annotations.index(ann_to_find)
                 ann = self.annotations.__getitem__(index)
                 ann.add_topic(values['reference'])
-                ann.add_tag(values['tag'])
+                # ann.add_tag(values['tag'])
                 ann.source = source
                 self.annotations.append(ann)
 
