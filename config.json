@@ -5,12 +5,12 @@
     {
       "service": "http://bioinformatics.ua.pt/becas/api/text/annotate?email=sernadela@ua.pt&tool=test",
       "query": "*.*.refs",
-      "enable": false
+      "enable": true
     },
     {
-      "service": "http://data.bioontology.org/annotator?apikey=b3fe8ec4-42f9-4b13-9007-417ddee3caf9",
+      "service": "http://data.bioontology.org/annotator?apikey=XXXXXXX",
       "query": "[*].annotatedClass.@id",
-      "enable": true
+      "enable": false
     }
   ],
   "mappings": {
