@@ -140,7 +140,7 @@ class Triplify:
     # apply mappings available on the config file
     def map(self, mappings):
         tags = mappings['tags']
-        relations = mappings['relations']
+        relations = mappings['properties']
 
         for tag in tags:
             tag_to_remove = tag['if']

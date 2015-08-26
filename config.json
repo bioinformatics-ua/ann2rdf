@@ -1,28 +1,38 @@
 {
-  "namespace":"http://bioinformatics.ua.pt/ann2rdf/",
-  "prefix":"ann2rdf",
-  "normalization":[
+  "namespace": "http://bioinformatics.ua.pt/ann2rdf/",
+  "prefix": "ann2rdf",
+  "normalization": [
     {
-      "service":"http://bioinformatics.ua.pt/becas/api/text/annotate?email=sernadela@ua.pt&tool=test",
-      "query":"*.*.refs",
-      "enable":false
+      "service": "http://bioinformatics.ua.pt/becas/api/text/annotate?email=sernadela@ua.pt&tool=test",
+      "query": "*.*.refs",
+      "enable": false
     },
     {
-      "service":"http://data.bioontology.org/annotator?apikey=b3fe8ec4-42f9-4b13-9007-417ddee3caf9",
-      "query":"[*].annotatedClass.@id",
-      "enable":false
+      "service": "http://data.bioontology.org/annotator?apikey=b3fe8ec4-42f9-4b13-9007-417ddee3caf9",
+      "query": "[*].annotatedClass.@id",
+      "enable": true
     }
   ],
-  "mappings":
-    {
-      "tags":[
-      ]
-    ,
-      "relations":[
-        {
-          "if":"sameSentence",
-          "then": "http://purl.org/dc/elements/1.1/relation"
-        }
-      ]
-    }
+  "mappings": {
+    "tags": [
+      {
+        "if": "Gene_expression",
+        "then": "http://www.bootstrep.eu/ontology/GRO#GeneExpression"
+      },
+      {
+        "if": "Positive_regulation",
+        "then": "http://www.bootstrep.eu/ontology/GRO#PositiveRegulation"
+      }
+    ],
+    "properties": [
+      {
+        "if": "Arg1",
+        "then": "http://purl.org/dc/elements/1.1/relation"
+      },
+      {
+        "if": "Arg2",
+        "then": "http://purl.org/dc/elements/1.1/relation"
+      }
+    ]
+  }
 }
