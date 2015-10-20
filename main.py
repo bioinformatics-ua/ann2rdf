@@ -92,7 +92,7 @@ def main():
     sys.stdout.flush()
 
     # init triples service
-    triplify = Triplify(boot.prefix, boot.namespace)
+    triplify = Triplify(boot.prefix, boot.namespace, boot.ontologies)
 
     # init normalization service
     normalization = Normalization(boot.normalization)

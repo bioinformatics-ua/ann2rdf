@@ -10,6 +10,7 @@ class Boot:
         self.prefix = self.config_file['prefix']
         self.normalization = self.config_file['normalization']
         self.mappings = self.config_file['mappings']
+        self.ontologies = self.config_file['ontologies']
 
 
 

@@ -10,12 +10,11 @@ import sys
 
 AO = Namespace('http://purl.org/ao/')
 PAV = Namespace('http://purl.org/pav/')
-UMLS = Namespace('http://linkedlifedata.com/resource/umls/id/')
 
 
 class Triplify:
 
-    def __init__(self, prefix, namespace):
+    def __init__(self, prefix, namespace, ontologies):
         self.prefix = prefix
         self.namespace = Namespace(namespace)
         self.store = Store()
@@ -23,7 +22,9 @@ class Triplify:
         self.store.bind("ao", str(AO))
         self.store.bind("pav", str(PAV))
         self.store.bind("dc", str(DC))
-        self.store.bind("umls", str(UMLS))
+        self.ontologies = ontologies
+        for k in ontologies:
+            self.store.bind(k, ontologies[k])
 
     def normalize(self, normalization):
 
@@ -108,10 +109,14 @@ class Triplify:
             for topic in annotation.topics:
                 if str(topic).startswith('http'):
                     self.store.add((ann_id, AO.hasTopic, URIRef(topic)))
-                elif str(topic).startswith('umls:'):
+                elif ":" in str(topic):
                     split = topic.split(':')
-                    i = split[1]
-                    self.store.add((ann_id, AO.hasTopic, URIRef(UMLS+i)))
+                    k = split[0]
+                    v = split[1]
+                    if k in self.ontologies.keys():
+                        self.store.add((ann_id, AO.hasTopic, URIRef(Namespace(self.ontologies[k])+v)))
+                    else:
+                        self.store.add((ann_id, AO.hasTopic, Literal(topic)))
                 else:
                     self.store.add((ann_id, AO.hasTopic, Literal(topic)))
 
