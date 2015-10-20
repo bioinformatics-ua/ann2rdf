@@ -1,6 +1,9 @@
 {
   "namespace": "http://bioinformatics.ua.pt/ann2rdf/",
   "prefix": "ann2rdf",
+  "ontologies": {
+    "umls": "http://linkedlifedata.com/resource/umls/id/"
+  },
   "normalization": [
     {
       "service": "http://bioinformatics.ua.pt/becas/api/text/annotate?email=sernadela@ua.pt&tool=test",
