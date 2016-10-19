@@ -29,6 +29,12 @@ Semantic layer to convert multiple annotations files into RDF data
   $python main.py -h
   ```
 
+## Reference
+
+Please use this reference when citing Ann2RDF in your work:
+
+* DOI: [10.1145/2837185.2837253](http://dx.doi.org/10.1145/2837185.2837253)
+ 
 ## Contact
 
 Pedro Sernadela (sernadela at ua dot pt)
